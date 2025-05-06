@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+body {
+    font-family: 'Onest', sans-serif;
+    /* antialiased */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
