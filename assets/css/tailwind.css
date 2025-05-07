@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+    font-family: 'Onest', sans-serif;
+    /* antialiased */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.hero-image {
+    background-image: url("../../assets/img/fred-hero.jpg");
+}
+
+.home-in-company-image {
+    background-image: url("../../assets/img/fred-home-in-company.jpg");
+}
+
+.white-filter {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(128deg) brightness(102%) contrast(104%);
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}

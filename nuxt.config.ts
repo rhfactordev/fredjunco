@@ -11,7 +11,7 @@ export default defineNuxtConfig({
         '@nuxtjs/google-fonts',
     ],
     // @tailwindcss/vite
-    css: ['~/assets/css/main.css'],
+    css: ['~/assets/css/tailwind.css'],
     vite: {
         plugins: [tailwindcss()],
     },
@@ -19,6 +19,7 @@ export default defineNuxtConfig({
     googleFonts: {
         families: {
             Onest: true,
+            Inter: true,
         },
     },
     // @nuxt/image
