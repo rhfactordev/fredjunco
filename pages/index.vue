@@ -22,14 +22,14 @@
           </div>
           <NuxtLink
             to="/contact"
-            class="font-semibold text-[#53CC6C] border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200"
+            class="font-semibold text-[#53CC6C] text-xl border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200"
             >Entre em contato com o Fred</NuxtLink
           >
         </article>
       </div>
     </section>
-    <section class="bg-[#2B2D3D] w-full flex">
-      <div class="flex-1 home-in-company-image bg-center"></div>
+    <section class="bg-[#2B2D3D] w-full h-screen flex">
+      <div class="flex-1 home-in-company-image bg-top bg-clip"></div>
       <article class="flex-1 p-16">
         <div class="space-y-6 mb-8">
           <h2 class="text-[#53CC6C] font-bold text-5xl">In Company</h2>
@@ -69,7 +69,7 @@
         </ul>
         <NuxtLink
           to="/contact"
-          class="font-semibold text-white bg-[#53CC6C] border border-[#53CC6C] rounded-md px-10 py-5 inline-block"
+          class="font-semibold text-white text-xl bg-[#53CC6C] border border-[#53CC6C] rounded-md px-10 py-5 inline-block"
           >Quero me cadastrar no In Company</NuxtLink
         >
       </article>
