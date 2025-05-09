@@ -198,7 +198,7 @@
     </section>
     <section class="p-16 space-y-8">
       <h2 class="font-bold text-5xl text-[#1C3433]">Benefícios In Company?</h2>
-      <div class="flex items-center gap-32">
+      <div class="flex gap-32">
         <div class="flex-1 space-y-8">
           <p class="font-normal text-lg text-[#6B6A66]">
             Investir no treinamento corporativo "In Company" traz vantagens
@@ -211,15 +211,84 @@
           </p>
         </div>
         <div class="flex-1">
-          <CheckedList
+          <ul
+            class="space-y-5 text-base text-[#6B6A66] font-medium leading-[170%]"
+          >
+            <li class="flex space-y-2">
+              <div>
+                <NuxtImg
+                  src="icons/checked-icon.svg"
+                  class="size-8 inline-block mr-2"
+                />
+              </div>
+              <div class="w-xl">
+                <h6 class="text-[#1C3433] font-bold">Diminuição de Turnove</h6>
+                <p>
+                  Reduza custos com contratações e treinamentos frequentes,
+                  aumentando a retenção de talentos.
+                </p>
+              </div>
+            </li>
+            <li class="flex space-y-2">
+              <div>
+                <NuxtImg
+                  src="icons/checked-icon.svg"
+                  class="size-8 inline-block mr-2"
+                />
+              </div>
+              <div class="w-xl">
+                <h6 class="text-[#1C3433] font-bold">Capacitação da Equipe</h6>
+                <p>
+                  Desenvolva habilidades estratégicas em liderança, vendas e
+                  negociação, tornando seu time mais preparado para desafios do
+                  mercado.
+                </p>
+              </div>
+            </li>
+            <li class="flex space-y-2">
+              <div>
+                <NuxtImg
+                  src="icons/checked-icon.svg"
+                  class="size-8 inline-block mr-2"
+                />
+              </div>
+              <div class="w-xl">
+                <h6 class="text-[#1C3433] font-bold">
+                  Melhoria do Clima Organizacional
+                </h6>
+                <p>
+                  Fortaleça a cultura da empresa e promova um ambiente de
+                  trabalho mais motivador e produtivo.
+                </p>
+              </div>
+            </li>
+            <li class="flex space-y-2">
+              <div>
+                <NuxtImg
+                  src="icons/checked-icon.svg"
+                  class="size-8 inline-block mr-2"
+                />
+              </div>
+              <div class="w-xl">
+                <h6 class="text-[#1C3433] font-bold">Aprimoramento Contínuo</h6>
+                <p>
+                  Potencialize a performance dos colaboradores com treinamentos
+                  práticos e alinhados às necessidades da empresa.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <!-- <CheckedList
             id="features"
             :items="[
-              'Diminuição de Turnove',
-              'Capacitação da Equipe',
+              '',
+              'Desenvolva habilidades estratégicas em liderança, vendas e negociação, tornando seu time mais preparado para desafios do mercado.',
               'Melhoria do Clima Organizacional',
+              'Fortaleça a cultura da empresa e promova um ambiente de trabalho mais motivador e produtivo.',
               'Aprimoramento Contínuo',
+              'Potencialize a performance dos colaboradores com treinamentos práticos e alinhados às necessidades da empresa.',
             ]"
-          />
+          /> -->
         </div>
       </div>
     </section>
