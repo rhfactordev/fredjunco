@@ -41,32 +41,7 @@
             turnover e melhorar a satisfação no ambiente corporativo.
           </p>
         </div>
-        <ul class="text-white text-lg font-normal space-y-4 mb-16">
-          <li>
-            <NuxtImg
-              src="icons/users-icon.svg"
-              alt="Fred Junco"
-              class="size-10 inline-block mr-2"
-            />
-            Até 200 participantes
-          </li>
-          <li>
-            <NuxtImg
-              src="icons/warranty-icon.svg"
-              alt="Fred Junco"
-              class="size-10 inline-block mr-2"
-            />
-            Garantia de Satisfação
-          </li>
-          <li>
-            <NuxtImg
-              src="icons/mac-browser-icon.svg"
-              alt="Fred Junco"
-              class="size-10 inline-block mr-2"
-            />
-            Possibilidade On-Line
-          </li>
-        </ul>
+        <InCompanyList />
         <NuxtLink
           to="/contact"
           class="font-semibold text-white text-xl bg-[#53CC6C] border border-[#53CC6C] rounded-md px-10 py-5 inline-block"

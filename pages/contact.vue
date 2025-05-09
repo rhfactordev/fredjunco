@@ -7,7 +7,7 @@
         <div class="flex-1 space-y-16">
           <NuxtImg
             src="img/fred-contact.jpg"
-            alt="Fred Junco"
+            alt="Fred Junco Contato"
             class="max-h-screen rounded-3xl"
           />
         </div>
@@ -25,40 +25,11 @@
               resultados extraordinários. Conheça suas conquistas, prêmios e
               metodologias que fazem a diferença no mercado corporativo.
             </p>
-            <ul class="flex flex-col gap-4 font-medium text-lg text-[#1C3433]">
-              <li>
-                <NuxtImg
-                  src="icons/checked-icon.svg"
-                  alt="Fred Junco"
-                  class="size-8 inline-block mr-2"
-                />
-                Professor Conquer
-              </li>
-              <li>
-                <NuxtImg
-                  src="icons/checked-icon.svg"
-                  alt="Fred Junco"
-                  class="size-8 inline-block mr-2"
-                />
-                Livro
-              </li>
-              <li>
-                <NuxtImg
-                  src="icons/checked-icon.svg"
-                  alt="Fred Junco"
-                  class="size-8 inline-block mr-2"
-                />
-                Prêmio X
-              </li>
-              <li>
-                <NuxtImg
-                  src="icons/checked-icon.svg"
-                  alt="Fred Junco"
-                  class="size-8 inline-block mr-2"
-                />
-                Podcast
-              </li>
-            </ul>
+            <CheckedList
+              id="features"
+              :items="['Professor Conquer', 'Livro', 'Prêmio X', 'Podcast']"
+              class-name="font-medium"
+            />
           </div>
         </article>
       </div>
@@ -200,9 +171,11 @@
       </div>
     </section>
     <section class="w-full overflow-hidden">
-      <div class="relative w-2/3 pb-[56.25%] mx-auto">
+      <div
+        class="relative w-2/3 pb-[56.25%] mx-auto google-maps-placeholder-image bg-cover bg-fixed bg-center"
+      >
         <iframe
-          class="rounded-3xl y-8"
+          class="y-8"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.7974439272953!2d-8.866929299999999!3d37.958515299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1b9517abd94545%3A0x2fddaa4a3ec10a0b!2sAlameda%20da%20Paz%2047%207520%20110%2C%207520-110%20Sines%2C%20Portugal!5e0!3m2!1spt-BR!2sbr!4v1746715499240!5m2!1spt-BR!2sbr"
           width="100%"
           height="100%"

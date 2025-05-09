@@ -8,11 +8,15 @@ body {
 }
 
 .hero-image {
-    background-image: url("../../assets/img/fred-hero.jpg");
+    background-image: url("../../public/img/fred-hero.jpg");
 }
 
 .home-in-company-image {
-    background-image: url("../../assets/img/fred-home-in-company.jpg");
+    background-image: url("../../public/img/fred-home-in-company.jpg");
+}
+
+.google-maps-placeholder-image {
+    background-image: url("../../public/img/google-maps-placeholder.png");
 }
 
 .white-filter {
