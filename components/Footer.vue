@@ -3,7 +3,7 @@
     <div class="flex justify-between items-center">
       <div class="flex flex-col gap-8 flex-1">
         <NuxtImg
-          src="fred-junco-logo.png"
+          src="img/fred-junco-logo.png"
           alt="Fred Junco Conexões e Negócios"
           class="white-filter w-60"
         />

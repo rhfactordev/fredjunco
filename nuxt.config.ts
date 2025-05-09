@@ -23,7 +23,7 @@ export default defineNuxtConfig({
         },
     },
     // @nuxt/image
-    image: {
-        dir: 'assets/img',
-    },
+    // image: {
+    //     dir: 'public/img',
+    // },
 });

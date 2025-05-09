@@ -4,7 +4,7 @@
     :style="{ backgroundColor: backgroundColor || undefined }"
   >
     <NuxtLink to="/">
-      <NuxtImg src="fred-junco-logo.png" class="h-16 white-filter" />
+      <NuxtImg src="img/fred-junco-logo.png" class="h-16 white-filter" />
     </NuxtLink>
     <nav>
       <ul class="flex flex-row gap-8 text-white text-lg font-semibold">
