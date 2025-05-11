@@ -38,7 +38,7 @@
       <h2 class="font-bold text-5xl text-[#1C3433] text-center">
         Como Funciona
       </h2>
-      <ul class="text-[#6B6A66] text-lg font-normal text-center flex">
+      <ul class="text-[#6B6A66] text-lg font-normal text-center flex px-8">
         <li class="w-xl relative space-y-8 p-4">
           <NuxtImg
             class="h-14 absolute top-0 right-0 translate-x-1/2"
@@ -108,14 +108,14 @@
       <div class="flex justify-center items-center gap-4">
         <button
           type="button"
-          class="bg-[#F7F7F7] rounded-[50%] size-16 flex justify-center items-center cursor-not-allowed"
+          class="bg-[#F7F7F7] rounded-[50%] size-16 flex justify-center items-center cursor-pointer disabled:cursor-not-allowed disabled:opacity-50 duration-200"
           disabled
         >
           <NuxtImg src="icons/chevron-left.svg" alt="<-" />
         </button>
         <button
           type="button"
-          class="bg-[#F7F7F7] rounded-[50%] size-16 flex justify-center items-center cursor-pointer"
+          class="bg-[#F7F7F7] rounded-[50%] size-16 flex justify-center items-center cursor-pointer disabled:cursor-not-allowed disabled:opacity-50 duration-200"
         >
           <NuxtImg src="icons/chevron-right.svg" alt="->" />
         </button>

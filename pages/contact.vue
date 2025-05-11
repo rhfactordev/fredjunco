@@ -172,7 +172,7 @@
     </section>
     <section class="w-full overflow-hidden">
       <div
-        class="relative w-2/3 pb-[56.25%] mx-auto google-maps-placeholder-image bg-cover bg-fixed bg-center"
+        class="relative w-2/3 pb-[56.25%] mx-auto google-maps-placeholder-image bg-cover bg-center"
       >
         <iframe
           class="y-8"

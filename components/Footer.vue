@@ -52,16 +52,22 @@
         </h2>
         <ul class="text-white text-lg font-normal grid grid-cols-2 gap-4">
           <li>
-            <NuxtLink to="/"> Página Inicial </NuxtLink>
+            <NuxtLink class="hover:underline" to="/"> Página Inicial </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/contact"> Quem é Fred Junco? </NuxtLink>
+            <NuxtLink class="hover:underline" to="/contact">
+              Quem é Fred Junco?
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/in-company"> In Company </NuxtLink>
+            <NuxtLink class="hover:underline" to="/in-company">
+              In Company
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/contact"> Contatos </NuxtLink>
+            <NuxtLink class="hover:underline" to="/contact">
+              Contatos
+            </NuxtLink>
           </li>
         </ul>
       </div>
@@ -94,7 +100,7 @@
       </div>
     </div>
     <div class="inline-block h-px bg-[#2C5250] w-full"></div>
-    <p class="text-white font-normal text-lg text-center">
+    <p class="text-white font-normal text-lg text-center cursor-default">
       Fred Junco - Copyright &copy;{{ currentYear }}
     </p>
   </footer>
