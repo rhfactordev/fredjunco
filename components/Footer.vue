@@ -1,7 +1,9 @@
 <template>
-  <footer class="bg-[#1C3433] space-y-16 p-16">
-    <div class="flex justify-between items-center">
-      <div class="flex flex-col gap-8 flex-1">
+  <footer class="bg-[#1C3433] space-y-8 md:space-y-16 p-8 md:p-16">
+    <div
+      class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 gap-8"
+    >
+      <div class="flex flex-col gap-8 flex-1 mb-6 md:mb-0">
         <NuxtImg
           src="img/fred-junco-logo.png"
           alt="Fred Junco Conexões e Negócios"
@@ -46,11 +48,15 @@
           </li>
         </ul>
       </div>
-      <div class="flex-2">
-        <h2 class="font-inter font-extrabold text-[#53CC6C] text-2xl mb-6">
+      <div class="flex-1 md:flex-2">
+        <h2
+          class="font-inter font-extrabold text-[#53CC6C] text-2xl mb-6 text-center md:text-left"
+        >
           Links
         </h2>
-        <ul class="text-white text-lg font-normal grid grid-cols-2 gap-4">
+        <ul
+          class="text-white text-lg font-normal flex flex-col items-center md:grid grid-cols-2 gap-4"
+        >
           <li>
             <NuxtLink class="hover:underline" to="/"> Página Inicial </NuxtLink>
           </li>
@@ -72,10 +78,14 @@
         </ul>
       </div>
       <div class="flex-1">
-        <h2 class="font-inter font-extrabold text-[#53CC6C] text-2xl mb-6">
+        <h2
+          class="font-inter font-extrabold text-[#53CC6C] text-2xl mb-6 text-center md:text-left"
+        >
           Contatos
         </h2>
-        <ul class="text-white text-lg font-normal space-y-4">
+        <ul
+          class="text-white text-lg font-normal space-y-4 text-center md:text-left"
+        >
           <li>
             <a href="mailto:contato@fredjunco.com.br">
               <NuxtImg
