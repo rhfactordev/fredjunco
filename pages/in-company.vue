@@ -105,21 +105,7 @@
           <p>Definição do cronograma e estrutura do projeto.</p>
         </li>
       </ul>
-      <div class="flex justify-center items-center gap-4">
-        <button
-          type="button"
-          class="bg-[#F7F7F7] rounded-[50%] size-16 flex justify-center items-center cursor-pointer disabled:cursor-not-allowed disabled:opacity-50 duration-200"
-          disabled
-        >
-          <NuxtImg src="icons/chevron-left.svg" alt="<-" />
-        </button>
-        <button
-          type="button"
-          class="bg-[#F7F7F7] rounded-[50%] size-16 flex justify-center items-center cursor-pointer disabled:cursor-not-allowed disabled:opacity-50 duration-200"
-        >
-          <NuxtImg src="icons/chevron-right.svg" alt="->" />
-        </button>
-      </div>
+      <PageController />
     </section>
     <section class="p-16 space-y-8">
       <h2 class="font-bold text-5xl text-[#1C3433]">
