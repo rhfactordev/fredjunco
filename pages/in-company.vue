@@ -292,3 +292,9 @@
   </main>
   <Footer />
 </template>
+
+<script setup>
+useHead({
+  title: "In Company | Fred Junco",
+});
+</script>

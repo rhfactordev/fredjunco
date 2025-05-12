@@ -494,3 +494,9 @@
   </main>
   <Footer />
 </template>
+
+<script setup>
+useHead({
+  title: "Fred Junco - Conexões e Negócios",
+});
+</script>

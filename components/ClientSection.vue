@@ -1,13 +1,13 @@
 <template>
   <section class="space-y-16 my-32">
-    <div class="w-[37.5rem] mx-auto text-center space-y-1">
+    <div class="md:w-[37.5rem] mx-auto text-center space-y-4 md:space-y-1">
       <h2 class="text-[#1C3433] text-5xl font-bold">Clientes</h2>
       <p class="text-lg text-[#6B6A66] font-normal leading-[150%]">
         Veja as empresas que já confiaram no trabalho de Fred Junco e
         transformaram suas equipes.
       </p>
     </div>
-    <ul class="flex justify-center gap-32">
+    <ul class="flex justify-between md:justify-center md:gap-32 mx-8">
       <li>
         <NuxtImg src="icons/slack-light-icon.svg" alt="Slack" class="size-16" />
       </li>
@@ -33,7 +33,7 @@
         />
       </li>
     </ul>
-    <ul class="flex justify-center gap-32">
+    <ul class="flex justify-between md:justify-center md:gap-32 mx-8">
       <li>
         <NuxtImg
           src="icons/hubspot-light-icon.svg"

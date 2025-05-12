@@ -1,19 +1,23 @@
 <template>
   <Header />
   <main>
-    <section class="p-16 space-y-16">
-      <h2 class="font-bold text-5xl text-[#1C3433]">Quem é Fred Junco?</h2>
-      <div class="flex flex-col md:flex-row">
-        <div class="flex-1 space-y-16">
+    <section class="p-16 space-y-8 md:space-y-16">
+      <h2 class="font-bold text-5xl text-[#1C3433] text-center md:text-left">
+        Quem é Fred Junco?
+      </h2>
+      <div class="flex flex-col md:flex-row gap-8">
+        <div class="flex-1 md:space-y-16">
           <NuxtImg
             src="img/fred-contact.jpg"
             alt="Fred Junco Contato"
             class="max-h-screen rounded-3xl"
           />
         </div>
-        <article class="flex-1 px-16">
+        <article class="flex-1 md:px-16">
           <div class="space-y-8 mb-8">
-            <h3 class="font-bold text-lg text-[#1C3433] uppercase">
+            <h3
+              class="font-bold text-lg text-[#1C3433] uppercase text-center md:text-left"
+            >
               PALESTRANTE | LIDERANÇA | NEGOCIAÇÃO | NEUROVENDAS | TREINAMENTO
               CORPORATIVO | GESTÃO COMERCIAL
             </h3>
@@ -34,7 +38,7 @@
         </article>
       </div>
     </section>
-    <section class="bg-[#F5F2EC] flex p-16">
+    <section class="bg-[#F5F2EC] flex flex-col md:flex-row p-16 md:gap-0 gap-8">
       <div class="flex-1 text-[#6B6A66] text-lg font-normal space-y-8">
         <div class="space-y-4">
           <h4 class="font-semibold text-[#1C3433] text-2xl">E-mail</h4>
@@ -124,7 +128,7 @@
           Preencha o formulário abaixo para entrar em contato com Fred Junco e
           iniciar a transformação na sua empresa.
         </h4>
-        <form class="grid grid-cols-2 gap-8">
+        <form class="grid grid-cols-2 gap-2 md:gap-8">
           <input
             class="col-span-2 md:col-span-1 bg-white border border-[#E8E8E8] placeholder-[#6B6A66] rounded-lg py-5 px-4 focus:outline-none"
             type="text"
@@ -172,7 +176,7 @@
     </section>
     <section class="w-full overflow-hidden">
       <div
-        class="relative w-2/3 pb-[56.25%] mx-auto google-maps-placeholder-image bg-cover bg-center"
+        class="relative w-full md:w-2/3 pb-[56.25%] mx-auto google-maps-placeholder-image bg-cover bg-center"
       >
         <iframe
           class="y-8"
@@ -191,3 +195,9 @@
   </main>
   <Footer />
 </template>
+
+<script setup>
+useHead({
+  title: "Contato | Fred Junco",
+});
+</script>
