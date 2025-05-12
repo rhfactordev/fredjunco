@@ -9,7 +9,7 @@
       <Header class-name="bg-transparent" />
       <div class="h-full flex md:items-center mt-8 md:mt-0">
         <article
-          class="space-y-8 px-8 md:pr-0 md:pl-50 w-full md:w-[calc(100vw/2-12.5rem)] z-30 relative"
+          class="space-y-8 px-16 md:pr-0 md:pl-50 w-full md:w-[calc(100vw/2-12.5rem)] z-30 relative"
         >
           <div class="space-y-8">
             <h1
@@ -24,11 +24,13 @@
               otimizam o desempenho da sua equipe.
             </p>
           </div>
-          <NuxtLink
-            to="/contact"
-            class="font-semibold text-[#53CC6C] text-xl border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200 text-center md:text-left"
-            >Entre em contato com o Fred</NuxtLink
-          >
+          <div class="flex items-center justify-center md:justify-start">
+            <NuxtLink
+              to="/contact"
+              class="font-semibold text-[#53CC6C] text-xl border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200 text-center md:text-left"
+              >Entre em contato com o Fred</NuxtLink
+            >
+          </div>
         </article>
       </div>
     </section>
@@ -154,8 +156,8 @@
         ></div>
       </div>
     </section>
-    <section class="space-y-16 py-48">
-      <div class="mx-48 flex items-center gap-8">
+    <section class="space-y-16 py-16 md:py-48">
+      <div class="mx-16 md:mx-48 flex flex-col md:flex-row items-center gap-8">
         <h2 class="text-[#1C3433] font-bold text-5xl text-center md:text-left">
           Vídeos do Fred
         </h2>
@@ -163,13 +165,13 @@
           Explore uma seleção de conteúdos exclusivos, incluindo palestras,
           vídeos e insights compartilhados por Fred Junco.
         </p>
-        <PageController class-name="ml-auto" />
+        <PageController class-name="ml-auto hidden md:flex" />
       </div>
       <ul
-        class="flex items-center text-white font-semibold text-2xl text-center overflow-x-hidden gap-8"
+        class="flex flex-col md:flex-row items-center text-white font-semibold text-2xl text-center md:overflow-x-hidden gap-8 md:p-0 px-8"
       >
         <li
-          class="group overflow-hidden h-[30rem] w-96 first:ml-48 last:mr-48 bg-slate-900 rounded-2xl cursor-pointer"
+          class="group overflow-hidden md:h-[30rem] w-full md:w-96 md:first:ml-48 md:last:mr-48 rounded-2xl cursor-pointer"
         >
           <a
             href="#"
@@ -187,12 +189,12 @@
                 ></div>
               </div>
             </figure>
-            <div class="space-y-6 z-30">
+            <div class="md:space-y-6 z-30">
               <article class="space-y-1">
                 <h4>Como me enganar como cliente em 7 passos</h4>
                 <span class="text-lg font-normal"> 05 abr de 2022 </span>
               </article>
-              <span href="#" class="text-xl hover:underline">
+              <span href="#" class="text-xl hover:underline hidden md:inline">
                 Acessar agora
                 <NuxtImg
                   src="icons/arrow-up-right-icon.svg"
@@ -204,7 +206,7 @@
           </a>
         </li>
         <li
-          class="group overflow-hidden h-[30rem] w-96 first:ml-48 last:mr-48 bg-slate-900 rounded-2xl cursor-pointer"
+          class="group overflow-hidden md:h-[30rem] w-full md:w-96 md:first:ml-48 md:last:mr-48 rounded-2xl cursor-pointer"
         >
           <a
             href="#"
@@ -222,12 +224,12 @@
                 ></div>
               </div>
             </figure>
-            <div class="space-y-6 z-30">
+            <div class="md:space-y-6 z-30">
               <article class="space-y-1">
                 <h4>Como me enganar como cliente em 7 passos</h4>
                 <span class="text-lg font-normal"> 05 abr de 2022 </span>
               </article>
-              <span href="#" class="text-xl hover:underline">
+              <span href="#" class="text-xl hover:underline hidden md:inline">
                 Acessar agora
                 <NuxtImg
                   src="icons/arrow-up-right-icon.svg"
@@ -239,7 +241,7 @@
           </a>
         </li>
         <li
-          class="group overflow-hidden h-[30rem] w-96 first:ml-48 last:mr-48 bg-slate-900 rounded-2xl cursor-pointer"
+          class="group overflow-hidden md:h-[30rem] w-full md:w-96 md:first:ml-48 md:last:mr-48 rounded-2xl cursor-pointer"
         >
           <a
             href="#"
@@ -257,12 +259,12 @@
                 ></div>
               </div>
             </figure>
-            <div class="space-y-6 z-30">
+            <div class="md:space-y-6 z-30">
               <article class="space-y-1">
                 <h4>Como me enganar como cliente em 7 passos</h4>
                 <span class="text-lg font-normal"> 05 abr de 2022 </span>
               </article>
-              <span href="#" class="text-xl hover:underline">
+              <span href="#" class="text-xl hover:underline hidden md:inline">
                 Acessar agora
                 <NuxtImg
                   src="icons/arrow-up-right-icon.svg"
@@ -274,7 +276,7 @@
           </a>
         </li>
         <li
-          class="group overflow-hidden h-[30rem] w-96 first:ml-48 last:mr-48 bg-slate-900 rounded-2xl cursor-pointer"
+          class="group overflow-hidden md:h-[30rem] w-full md:w-96 md:first:ml-48 md:last:mr-48 rounded-2xl cursor-pointer"
         >
           <a
             href="#"
@@ -292,12 +294,12 @@
                 ></div>
               </div>
             </figure>
-            <div class="space-y-6 z-30">
+            <div class="md:space-y-6 z-30">
               <article class="space-y-1">
                 <h4>Como me enganar como cliente em 7 passos</h4>
                 <span class="text-lg font-normal"> 05 abr de 2022 </span>
               </article>
-              <span href="#" class="text-xl hover:underline">
+              <span href="#" class="text-xl hover:underline hidden md:inline">
                 Acessar agora
                 <NuxtImg
                   src="icons/arrow-up-right-icon.svg"
@@ -309,7 +311,7 @@
           </a>
         </li>
         <li
-          class="group overflow-hidden h-[30rem] w-96 first:ml-48 last:mr-48 bg-slate-900 rounded-2xl cursor-pointer"
+          class="group overflow-hidden md:h-[30rem] w-full md:w-96 md:first:ml-48 md:last:mr-48 rounded-2xl cursor-pointer"
         >
           <a
             href="#"
@@ -327,12 +329,12 @@
                 ></div>
               </div>
             </figure>
-            <div class="space-y-6 z-30">
+            <div class="md:space-y-6 z-30">
               <article class="space-y-1">
                 <h4>Como me enganar como cliente em 7 passos</h4>
                 <span class="text-lg font-normal"> 05 abr de 2022 </span>
               </article>
-              <span href="#" class="text-xl hover:underline">
+              <span href="#" class="text-xl hover:underline hidden md:inline">
                 Acessar agora
                 <NuxtImg
                   src="icons/arrow-up-right-icon.svg"
@@ -344,7 +346,7 @@
           </a>
         </li>
       </ul>
-      <div class="flex justify-center">
+      <div class="flex justify-center mx-8 md:mx-0">
         <a
           to="#"
           class="group font-semibold text-[#53CC6C] text-xl border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200 cursor-pointer text-center md:text-left"
@@ -352,13 +354,13 @@
           <NuxtImg
             src="icons/arrow-up-right-icon.svg"
             alt="->"
-            class="ml-4 size-6 inline-block group-hover:white-filter"
+            class="md:ml-4 size-6 inline-block group-hover:white-filter"
           />
         </a>
       </div>
     </section>
-    <section class="bg-[#F5F2EC] p-48 space-y-16">
-      <div class="flex items-center gap-8">
+    <section class="bg-[#F5F2EC] py-16 md:p-48 space-y-16">
+      <div class="mx-16 md:mx-48 flex flex-col md:flex-row items-center gap-8">
         <h2 class="text-[#1C3433] font-bold text-5xl text-center md:text-left">
           Blog do Fred
         </h2>
@@ -367,8 +369,10 @@
           interpessoais compartilhados por Fred Junco.
         </p>
       </div>
-      <ul class="flex items-center font-semibold text-[#1C3433] text-2xl gap-8">
-        <li class="group flex flex-col w-1/3 cursor-pointer">
+      <ul
+        class="flex flex-col md:flex-row items-center font-semibold text-[#1C3433] text-2xl gap-8 px-16"
+      >
+        <li class="group flex flex-col md:w-1/3 cursor-pointer">
           <figure class="relative overflow-hidden h-80 w-full rounded-t-3xl">
             <NuxtImg
               src="img/fred-blog-1.jpg"
@@ -376,9 +380,14 @@
               class="w-full absolute top-0 left-0 group-hover:scale-125 duration-200"
             />
           </figure>
-          <div class="p-8 space-y-6 bg-white rounded-b-3xl">
+          <div
+            class="p-8 md:space-y-6 bg-white rounded-b-3xl text-center md:text-left"
+          >
             <h4>Como me enganar como cliente em 7 passos</h4>
-            <span href="#" class="text-xl text-[#53CC6C] hover:underline">
+            <span
+              href="#"
+              class="text-xl text-[#53CC6C] hover:underline hidden md:inline"
+            >
               Ver conteúdo
               <NuxtImg
                 src="icons/arrow-up-right-icon.svg"
@@ -388,7 +397,7 @@
             </span>
           </div>
         </li>
-        <li class="group flex flex-col w-1/3 cursor-pointer">
+        <li class="group flex flex-col md:w-1/3 cursor-pointer">
           <figure class="relative overflow-hidden h-80 w-full rounded-t-3xl">
             <NuxtImg
               src="img/fred-blog-2.jpg"
@@ -396,9 +405,14 @@
               class="w-full absolute top-0 left-0 group-hover:scale-125 duration-200"
             />
           </figure>
-          <div class="p-8 space-y-6 bg-white rounded-b-3xl">
+          <div
+            class="p-8 md:space-y-6 bg-white rounded-b-3xl text-center md:text-left"
+          >
             <h4>Como me enganar como cliente em 7 passos</h4>
-            <span href="#" class="text-xl text-[#53CC6C] hover:underline">
+            <span
+              href="#"
+              class="text-xl text-[#53CC6C] hover:underline hidden md:inline"
+            >
               Ver conteúdo
               <NuxtImg
                 src="icons/arrow-up-right-icon.svg"
@@ -408,7 +422,9 @@
             </span>
           </div>
         </li>
-        <li class="group flex flex-col w-1/3 cursor-pointer">
+        <li
+          class="group flex flex-col md:w-1/3 cursor-pointer text-center md:text-left"
+        >
           <figure class="relative overflow-hidden h-80 w-full rounded-t-3xl">
             <NuxtImg
               src="img/fred-blog-3.jpg"
@@ -416,9 +432,12 @@
               class="w-full absolute top-0 left-0 group-hover:scale-125 duration-200"
             />
           </figure>
-          <div class="p-8 space-y-6 bg-white rounded-b-3xl">
+          <div class="p-8 md:space-y-6 bg-white rounded-b-3xl">
             <h4>Como me enganar como cliente em 7 passos</h4>
-            <span href="#" class="text-xl text-[#53CC6C] hover:underline">
+            <span
+              href="#"
+              class="text-xl text-[#53CC6C] hover:underline hidden md:inline"
+            >
               Ver conteúdo
               <NuxtImg
                 src="icons/arrow-up-right-icon.svg"
@@ -442,16 +461,18 @@
         </a>
       </div>
     </section>
-    <section class="p-48 flex items-center">
-      <div class="flex-1 p-16">
+    <section class="p-16 md:p-48 flex flex-col md:flex-row items-center">
+      <div class="flex-1 md:p-16">
         <NuxtImg
           src="img/fred-home-contact.jpg"
           alt="Fred Junco"
           class="rounded-3xl"
         />
       </div>
-      <div class="flex-1 p-16 space-y-8">
-        <h2 class="text-[#1C3433] font-bold text-5xl">Quem é Fred Junco?</h2>
+      <div class="flex-1 py-8 md:p-16 space-y-8">
+        <h2 class="text-[#1C3433] font-bold text-5xl text-center md:text-left">
+          Quem é Fred Junco?
+        </h2>
         <h3 class="font-bold text-lg text-[#1C3433] uppercase">
           PALESTRANTE | LIDERANÇA | NEGOCIAÇÃO | NEUROVENDAS | TREINAMENTO
           CORPORATIVO | GESTÃO COMERCIAL
@@ -479,10 +500,10 @@
       </div>
     </section>
     <ClientSection />
-    <section class="p-64">
-      <div class="flex items-center bg-[#2B2D3D] rounded-3xl">
+    <section class="md:p-64">
+      <div class="flex items-center bg-[#2B2D3D] md:rounded-3xl">
         <article class="flex-1">
-          <div class="space-y-16 p-32 pr-0">
+          <div class="space-y-16 p-16 md:p-32 pr-0">
             <h2 class="text-[#53CC6C] font-bold text-5xl">In Company</h2>
             <p class="font-normal text-lg text-white">
               Com uma formação robusta e mais de 20 anos de experiência em
@@ -506,7 +527,7 @@
             </div>
           </div>
         </article>
-        <figure class="relative flex-1 overflow-hidden">
+        <figure class="relative flex-1 overflow-hidden hidden md:block">
           <NuxtImg
             src="img/fred-home-in-company.jpg"
             alt="In Company"

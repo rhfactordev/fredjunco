@@ -1,5 +1,5 @@
 <template>
-  <section class="space-y-16 my-32">
+  <section class="space-y-16 my-32 md:mx-0 mx-16">
     <div class="md:w-[37.5rem] mx-auto text-center space-y-4 md:space-y-1">
       <h2 class="text-[#1C3433] text-5xl font-bold">Clientes</h2>
       <p class="text-lg text-[#6B6A66] font-normal leading-[150%]">

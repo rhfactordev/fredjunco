@@ -15,9 +15,7 @@
         </div>
         <article class="flex-1 md:px-16">
           <div class="space-y-8 mb-8">
-            <h3
-              class="font-bold text-lg text-[#1C3433] uppercase text-center md:text-left"
-            >
+            <h3 class="font-bold text-lg text-[#1C3433] uppercase">
               PALESTRANTE | LIDERANÇA | NEGOCIAÇÃO | NEUROVENDAS | TREINAMENTO
               CORPORATIVO | GESTÃO COMERCIAL
             </h3>
