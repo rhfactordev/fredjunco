@@ -1,7 +1,7 @@
 <template>
   <Header />
   <main>
-    <section class="p-16 space-y-16">
+    <section class="p-16 space-y-8 md:space-y-16">
       <h2 class="font-bold text-5xl text-[#1C3433] text-center md:text-left">
         In Company
       </h2>

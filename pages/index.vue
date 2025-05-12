@@ -1,18 +1,20 @@
 <template>
   <main>
     <section
-      class="hero-image w-full h-screen relative bg-cover overflow-y-hidden"
+      class="hero-image w-full md:h-screen relative bg-cover overflow-y-hidden pb-8 md:pb-0"
     >
       <div
-        class="absolute w-full h-full top-0 left-0 bg-gradient-to-r from-[#1C3433E5]/90 to-[#1C3433E5]/40 z-20"
+        class="absolute size-full top-0 left-0 bg-gradient-to-r from-[#1C3433E5]/90 to-[#1C3433E5]/40 z-20"
       ></div>
-      <Header background-color="transparent" />
-      <div class="h-full flex items-center">
+      <Header class-name="bg-transparent" />
+      <div class="h-full flex md:items-center mt-8 md:mt-0">
         <article
-          class="space-y-8 pl-50 w-[calc(100vw/2-12.5rem)] z-30 relative"
+          class="space-y-8 px-8 md:pr-0 md:pl-50 w-full md:w-[calc(100vw/2-12.5rem)] z-30 relative"
         >
           <div class="space-y-8">
-            <h1 class="font-semibold text-white text-6xl leading-16">
+            <h1
+              class="font-semibold text-white text-6xl leading-16 text-center md:text-left"
+            >
               Transforme sua equipe em uma
               <span class="text-[#53CC6C]">potência de Resultados!</span>
             </h1>
@@ -24,18 +26,25 @@
           </div>
           <NuxtLink
             to="/contact"
-            class="font-semibold text-[#53CC6C] text-xl border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200"
+            class="font-semibold text-[#53CC6C] text-xl border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200 text-center md:text-left"
             >Entre em contato com o Fred</NuxtLink
           >
         </article>
       </div>
     </section>
     <section class="bg-[#2B2D3D] w-full h-screen flex">
-      <div class="flex-1 home-in-company-image bg-top bg-clip"></div>
+      <div
+        class="flex-1 home-in-company-image bg-top bg-clip hidden md:block"
+      ></div>
+      <!-- Possibilidade de Backgroud Parcial -->
       <article class="flex-1">
         <div class="m-16">
           <div class="space-y-6 mb-8">
-            <h2 class="text-[#53CC6C] font-bold text-5xl">In Company</h2>
+            <h2
+              class="text-[#53CC6C] font-bold text-5xl text-center md:text-left"
+            >
+              In Company
+            </h2>
             <p class="text-white font-normal text-lg leading-[150%]">
               O maior desafio do RH é garantir um ambiente de trabalho produtivo
               e reter talentos. Fred Junco oferece treinamentos In Company
@@ -47,11 +56,11 @@
           <InCompanyList />
           <div class="group relative flex w-fit">
             <span
-              class="absolute inset-0 border border-transparent group-hover:border-[#53CC6C] group-hover:animate-ping rounded-md"
+              class="absolute inset-0 border border-transparent group-hover:border-[#53CC6C] group-hover:animate-ping rounded-md hidden md:inline"
             ></span>
             <NuxtLink
               to="/contact"
-              class="relative inline-flex font-semibold text-white text-xl bg-[#53CC6C] rounded-md px-10 py-5"
+              class="relative inline-flex font-semibold text-white text-xl bg-[#53CC6C] rounded-md px-10 py-5 text-center md:text-left"
             >
               Quero me cadastrar no In Company
             </NuxtLink>
@@ -63,7 +72,9 @@
       <article class="flex-1">
         <div class="m-16">
           <div class="space-y-6 mb-8">
-            <h2 class="text-[#669997] font-bold text-5xl">
+            <h2
+              class="text-[#669997] font-bold text-5xl text-center md:text-left"
+            >
               Mentoria Xeque-Mate
             </h2>
             <p class="text-[#6B6A66] font-normal text-lg leading-[150%]">
@@ -83,28 +94,40 @@
           />
           <NuxtLink
             to="/contact"
-            class="mt-16 inline-block font-semibold text-[#669997] text-xl border border-[#669997] hover:bg-[#669997] hover:text-white rounded-md px-10 py-5 duration-200"
+            class="mt-16 inline-block font-semibold text-[#669997] text-xl border border-[#669997] hover:bg-[#669997] hover:text-white rounded-md px-10 py-5 duration-200 text-center md:text-left"
           >
             Quero conhecer a Mentoria
           </NuxtLink>
         </div>
       </article>
-      <div class="flex-1 home-checkmate-image bg-top bg-clip"></div>
+      <div
+        class="flex-1 home-checkmate-image bg-top bg-clip hidden md:block"
+      ></div>
+      <!-- Possibilidade de Backgroud Parcial -->
     </section>
     <section class="w-full h-screen bg-[#FFF8F4] flex">
       <article class="flex-1">
         <div class="m-16">
           <div class="space-y-6 mb-8">
-            <h2 class="text-[#E9763D] font-bold text-5xl">Quick Wins</h2>
-            <q class="font-medium text-2xl tracking-tight not-italic no-quotes">
+            <h2
+              class="text-[#E9763D] font-bold text-5xl text-center md:text-left"
+            >
+              Quick Wins
+            </h2>
+            <q
+              class="flex md:block font-medium text-2xl tracking-tight not-italic no-quotes"
+            >
               <NuxtImg
                 src="icons/quote-icon.svg"
-                class="inline-block h-5 mr-2"
+                class="inline-block h-5 mr-2 self-start"
               />
-              Aprendizados para colocar em ação e alcançar resultados imediatos
+              <span class="text-center md:text-left self-center">
+                Aprendizados para colocar em ação e alcançar resultados
+                imediatos
+              </span>
               <NuxtImg
                 src="icons/quote-icon.svg"
-                class="inline-block rotate-180 h-5 ml-2"
+                class="inline-block rotate-180 h-5 ml-2 self-end"
               />
             </q>
             <p class="text-[#6B6A66] font-normal text-lg leading-[150%]">
@@ -116,13 +139,13 @@
           </div>
           <NuxtLink
             to="/contact"
-            class="mt-16 inline-block font-semibold text-[#E9763D] text-xl border border-[#E9763D] hover:bg-[#E9763D] hover:text-white rounded-md px-10 py-5 duration-200"
+            class="mt-16 inline-block font-semibold text-[#E9763D] text-xl border border-[#E9763D] hover:bg-[#E9763D] hover:text-white rounded-md px-10 py-5 duration-200 text-center md:text-left"
           >
             Quero adquirir meu livro
           </NuxtLink>
         </div>
       </article>
-      <div class="flex-1 relative overflow-y-hidden">
+      <div class="flex-1 relative overflow-y-hidden hidden md:block">
         <div
           class="relative home-quick-wins-image size-full bg-top bg-clip z-20"
         ></div>
@@ -133,7 +156,9 @@
     </section>
     <section class="space-y-16 py-48">
       <div class="mx-48 flex items-center gap-8">
-        <h2 class="text-[#1C3433] font-bold text-5xl">Vídeos do Fred</h2>
+        <h2 class="text-[#1C3433] font-bold text-5xl text-center md:text-left">
+          Vídeos do Fred
+        </h2>
         <p class="text-[#6B6A66] font-normal text-lg leading-[150%] max-w-xl">
           Explore uma seleção de conteúdos exclusivos, incluindo palestras,
           vídeos e insights compartilhados por Fred Junco.
@@ -322,7 +347,7 @@
       <div class="flex justify-center">
         <a
           to="#"
-          class="group font-semibold text-[#53CC6C] text-xl border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200 cursor-pointer"
+          class="group font-semibold text-[#53CC6C] text-xl border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200 cursor-pointer text-center md:text-left"
           >Acesse o canal do Fred Junco
           <NuxtImg
             src="icons/arrow-up-right-icon.svg"
@@ -334,7 +359,9 @@
     </section>
     <section class="bg-[#F5F2EC] p-48 space-y-16">
       <div class="flex items-center gap-8">
-        <h2 class="text-[#1C3433] font-bold text-5xl">Blog do Fred</h2>
+        <h2 class="text-[#1C3433] font-bold text-5xl text-center md:text-left">
+          Blog do Fred
+        </h2>
         <p class="text-[#6B6A66] font-normal text-lg leading-[150%] max-w-xl">
           Explore conteúdos e artigos sobre o mundo do RH e relações
           interpessoais compartilhados por Fred Junco.
@@ -405,7 +432,7 @@
       <div class="flex justify-center">
         <a
           to="#"
-          class="group font-semibold text-[#53CC6C] text-xl border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200 cursor-pointer"
+          class="group font-semibold text-[#53CC6C] text-xl border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200 cursor-pointer text-center md:text-left"
           >Acesse o blog do Fred Junco
           <NuxtImg
             src="icons/arrow-up-right-icon.svg"
@@ -439,7 +466,7 @@
         </p>
         <a
           to="#"
-          class="group font-semibold text-[#53CC6C] text-xl border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200 cursor-pointer"
+          class="group font-semibold text-[#53CC6C] text-xl border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200 cursor-pointer text-center md:text-left"
         >
           Quero falar com o Fred Junco
 
@@ -468,11 +495,11 @@
             <InCompanyList />
             <div class="group relative flex w-fit z-40">
               <span
-                class="absolute inset-0 border border-transparent group-hover:border-[#53CC6C] group-hover:animate-ping rounded-md"
+                class="absolute inset-0 border border-transparent group-hover:border-[#53CC6C] group-hover:animate-ping rounded-md hidden md:inline"
               ></span>
               <NuxtLink
                 to="/contact"
-                class="relative inline-flex font-semibold text-white text-xl bg-[#53CC6C] rounded-md px-10 py-5"
+                class="relative inline-flex font-semibold text-white text-xl bg-[#53CC6C] rounded-md px-10 py-5 text-center md:text-left"
               >
                 Quero me cadastrar no In Company
               </NuxtLink>

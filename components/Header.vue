@@ -1,7 +1,11 @@
 <template>
   <header
-    class="w-full flex flex-col md:flex-row items-center justify-between bg-[#1C3433] p-4 md:py-8 md:px-16 z-30 relative"
-    :style="{ backgroundColor: backgroundColor || undefined }"
+    :class="
+      cn(
+        'w-full flex flex-col md:flex-row items-center justify-between bg-[#1C3433] p-4 md:py-8 md:px-16 z-30 relative',
+        className
+      )
+    "
   >
     <NuxtLink to="/">
       <NuxtImg src="img/fred-junco-logo.png" class="h-16 white-filter" />
@@ -27,7 +31,10 @@
 </template>
 
 <script setup lang="ts">
+import type { ClassValue } from "clsx";
+import { cn } from "../lib/cn";
+
 defineProps<{
-  backgroundColor?: string;
+  className?: ClassValue;
 }>();
 </script>
