@@ -2,16 +2,18 @@
   <Header />
   <main>
     <section class="p-16 space-y-16">
-      <h2 class="font-bold text-5xl text-[#1C3433]">In Company</h2>
+      <h2 class="font-bold text-5xl text-[#1C3433] text-center md:text-left">
+        In Company
+      </h2>
       <div class="flex flex-col md:flex-row">
-        <div class="flex-1 space-y-16">
+        <div class="flex-1 space-y-16 hidden md:block">
           <NuxtImg
             src="img/fred-in-company.jpg"
             alt="Fred Junco In Company"
             class="max-h-screen rounded-3xl"
           />
         </div>
-        <article class="flex-1 px-16">
+        <article class="flex-1 md:px-16">
           <div class="space-y-8 mb-8">
             <p class="font-normal text-lg text-[#6B6A66]">
               O maior desafio do RH é garantir um ambiente de trabalho
@@ -29,19 +31,25 @@
               estratégica e prática, ajudamos sua equipe a trabalhar com mais
               engajamento, produtividade e satisfação.
             </p>
-            <InCompanyList class-name="text-[#1C3433]" />
+            <div class="flex justify-center md:block">
+              <InCompanyList class-name="text-[#1C3433]" />
+            </div>
           </div>
         </article>
       </div>
     </section>
-    <section class="space-y-16 py-16 overflow-x-hidden">
-      <h2 class="font-bold text-5xl text-[#1C3433] text-center">
+    <section class="space-y-8 md:space-y-16 py-16 overflow-x-hidden">
+      <h2 class="font-bold text-5xl text-[#1C3433] text-center md:text-left">
         Como Funciona
       </h2>
-      <ul class="text-[#6B6A66] text-lg font-normal text-center flex px-8">
-        <li class="w-xl relative space-y-8 p-4">
+      <ul
+        class="flex flex-nowrap text-[#6B6A66] text-lg font-normal text-center md:px-8"
+      >
+        <li
+          class="shrink-0 w-[calc(100vw-6rem)] md:w-xl relative space-y-8 p-4"
+        >
           <NuxtImg
-            class="h-14 absolute top-0 right-0 translate-x-1/2"
+            class="h-14 absolute top-0 right-0 translate-x-1/2 md:block hidden"
             src="icons/next-step-icon.svg"
             alt="->"
           />
@@ -53,9 +61,11 @@
           <h4 class="text-2xl font-semibold text-[#1C3433]">Contato inicial</h4>
           <p>Preencha o formulário e receba o contato da nossa equipe.</p>
         </li>
-        <li class="w-xl relative space-y-8 p-4">
+        <li
+          class="shrink-0 w-[calc(100vw-6rem)] md:w-xl relative space-y-8 p-4"
+        >
           <NuxtImg
-            class="h-14 absolute top-0 right-0 translate-x-1/2"
+            class="h-14 absolute top-0 right-0 translate-x-1/2 md:block hidden"
             src="icons/next-step-icon.svg"
             alt="->"
           />
@@ -72,9 +82,11 @@
             empresa.
           </p>
         </li>
-        <li class="w-xl relative space-y-8 p-4">
+        <li
+          class="shrink-0 w-[calc(100vw-6rem)] md:w-xl relative space-y-8 p-4"
+        >
           <NuxtImg
-            class="h-14 absolute top-0 right-0 translate-x-1/2"
+            class="h-14 absolute top-0 right-0 translate-x-1/2 md:block hidden"
             src="icons/next-step-icon.svg"
             alt="->"
           />
@@ -88,9 +100,11 @@
           </h4>
           <p>Apresentamos um plano estratégico adaptado à sua realidade.</p>
         </li>
-        <li class="w-xl relative space-y-8 p-4">
+        <li
+          class="shrink-0 w-[calc(100vw-6rem)] md:w-xl relative space-y-8 p-4"
+        >
           <NuxtImg
-            class="h-14 absolute top-0 right-0 translate-x-1/2"
+            class="h-14 absolute top-0 right-0 translate-x-1/2 md:block hidden"
             src="icons/next-step-icon.svg"
             alt="->"
           />
@@ -108,10 +122,10 @@
       <PageController />
     </section>
     <section class="p-16 space-y-8">
-      <h2 class="font-bold text-5xl text-[#1C3433]">
+      <h2 class="font-bold text-5xl text-[#1C3433] text-center md:text-left">
         Para quem é o In Company?
       </h2>
-      <div class="flex items-center gap-32">
+      <div class="flex flex-col md:flex-row items-center gap-16 md:gap-32">
         <div class="flex-1 space-y-8">
           <p class="font-normal text-lg text-[#6B6A66]">
             Os treinamentos "In Company" são voltados para empresas de diversos
@@ -133,18 +147,24 @@
               'Órgãos Públicos',
               'Hospitais e Clínicas',
             ]"
-            class-name="grid grid-cols-2 font-semibold"
+            class-name="md:grid grid-cols-2 font-semibold"
           />
         </div>
       </div>
     </section>
-    <section class="p-32 space-y-16 bg-[#F5F2EC]">
-      <h2 class="font-bold text-5xl text-[#1C3433] text-center">
+    <section class="p-16 md:p-32 space-y-16 bg-[#F5F2EC]">
+      <h2 class="font-bold text-5xl text-[#1C3433] text-center md:text-left">
         Serviços mais procurados:
       </h2>
-      <ul class="w-full flex items-center justify-center gap-16">
-        <li class="w-1/3 space-y-4">
-          <NuxtImg src="icons/rocket-icon.svg" alt="Foguete" class="size-12" />
+      <ul
+        class="w-full flex flex-col md:flex-row items-center md:justify-center gap-16"
+      >
+        <li class="md:w-1/3 space-y-4 text-center md:text-left">
+          <NuxtImg
+            src="icons/rocket-icon.svg"
+            alt="Foguete"
+            class="size-12 mx-auto md:mx-0"
+          />
           <h4 class="text-2xl font-semibold text-[#1C3433]">
             Treinamentos e desenvolvimento
           </h4>
@@ -152,11 +172,11 @@
             Capacitação em liderança, vendas, negociação e comunicação.
           </p>
         </li>
-        <li class="w-1/3 space-y-4">
+        <li class="md:w-1/3 space-y-4 text-center md:text-left">
           <NuxtImg
             src="icons/megaphone-icon.svg"
             alt="Megafone"
-            class="size-12"
+            class="size-12 mx-auto md:mx-0"
           />
           <h4 class="text-2xl font-semibold text-[#1C3433]">
             Consultorias especializadas
@@ -166,11 +186,11 @@
             recursos humanos.
           </p>
         </li>
-        <li class="w-1/3 space-y-4">
+        <li class="md:w-1/3 space-y-4 text-center md:text-left">
           <NuxtImg
             src="icons/user-with-tie-icon.svg"
             alt="Corporativo"
-            class="size-12"
+            class="size-12 mx-auto md:mx-0"
           />
           <h4 class="text-2xl font-semibold text-[#1C3433]">
             Programas de bem-estar corporativo
@@ -183,8 +203,10 @@
       </ul>
     </section>
     <section class="p-16 space-y-8">
-      <h2 class="font-bold text-5xl text-[#1C3433]">Benefícios In Company?</h2>
-      <div class="flex gap-32">
+      <h2 class="font-bold text-5xl text-[#1C3433] text-center md:text-left">
+        Benefícios In Company?
+      </h2>
+      <div class="flex flex-col md:flex-row gap-16 md:gap-32">
         <div class="flex-1 space-y-8">
           <p class="font-normal text-lg text-[#6B6A66]">
             Investir no treinamento corporativo "In Company" traz vantagens
@@ -207,7 +229,7 @@
                   class="size-8 inline-block mr-2"
                 />
               </div>
-              <div class="w-xl">
+              <div class="pl-2 md:pl-0 w-xl">
                 <h6 class="text-[#1C3433] font-bold">Diminuição de Turnove</h6>
                 <p>
                   Reduza custos com contratações e treinamentos frequentes,
@@ -222,7 +244,7 @@
                   class="size-8 inline-block mr-2"
                 />
               </div>
-              <div class="w-xl">
+              <div class="pl-2 md:pl-0 w-xl">
                 <h6 class="text-[#1C3433] font-bold">Capacitação da Equipe</h6>
                 <p>
                   Desenvolva habilidades estratégicas em liderança, vendas e
@@ -238,7 +260,7 @@
                   class="size-8 inline-block mr-2"
                 />
               </div>
-              <div class="w-xl">
+              <div class="pl-2 md:pl-0 w-xl">
                 <h6 class="text-[#1C3433] font-bold">
                   Melhoria do Clima Organizacional
                 </h6>
@@ -255,7 +277,7 @@
                   class="size-8 inline-block mr-2"
                 />
               </div>
-              <div class="w-xl">
+              <div class="pl-2 md:pl-0 w-xl">
                 <h6 class="text-[#1C3433] font-bold">Aprimoramento Contínuo</h6>
                 <p>
                   Potencialize a performance dos colaboradores com treinamentos
@@ -264,17 +286,6 @@
               </div>
             </li>
           </ul>
-          <!-- <CheckedList
-            id="features"
-            :items="[
-              '',
-              'Desenvolva habilidades estratégicas em liderança, vendas e negociação, tornando seu time mais preparado para desafios do mercado.',
-              'Melhoria do Clima Organizacional',
-              'Fortaleça a cultura da empresa e promova um ambiente de trabalho mais motivador e produtivo.',
-              'Aprimoramento Contínuo',
-              'Potencialize a performance dos colaboradores com treinamentos práticos e alinhados às necessidades da empresa.',
-            ]"
-          /> -->
         </div>
       </div>
     </section>
