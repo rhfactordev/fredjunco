@@ -25,9 +25,7 @@
             </p>
           </div>
           <div class="flex items-center justify-center md:justify-start">
-            <NuxtLink
-              to="/contact"
-              class="font-semibold text-[#53CC6C] text-xl border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200 text-center md:text-left"
+            <NuxtLink to="/contact" class="link-button green"
               >Entre em contato com o Fred</NuxtLink
             >
           </div>
@@ -38,16 +36,11 @@
       <div
         class="flex-1 home-in-company-image bg-top bg-clip hidden md:block"
       ></div>
-      <!-- Possibilidade de Backgroud Parcial -->
       <article class="flex-1">
         <div class="m-16">
           <div class="space-y-6 mb-8">
-            <h2
-              class="text-[#53CC6C] font-bold text-5xl text-center md:text-left"
-            >
-              In Company
-            </h2>
-            <p class="text-white font-normal text-lg leading-[150%]">
+            <h2 class="section-title !text-[#53CC6C]">In Company</h2>
+            <p class="article-text !text-white leading-[150%]">
               O maior desafio do RH é garantir um ambiente de trabalho produtivo
               e reter talentos. Fred Junco oferece treinamentos In Company
               personalizados que diagnosticam as necessidades da sua empresa e
@@ -62,7 +55,7 @@
             ></span>
             <NuxtLink
               to="/contact"
-              class="relative inline-flex font-semibold text-white text-xl bg-[#53CC6C] rounded-md px-10 py-5 text-center md:text-left"
+              class="link-button !inline-flex text-white border-none bg-[#53CC6C]"
             >
               Quero me cadastrar no In Company
             </NuxtLink>
@@ -74,12 +67,8 @@
       <article class="flex-1">
         <div class="m-16">
           <div class="space-y-6 mb-8">
-            <h2
-              class="text-[#669997] font-bold text-5xl text-center md:text-left"
-            >
-              Mentoria Xeque-Mate
-            </h2>
-            <p class="text-[#6B6A66] font-normal text-lg leading-[150%]">
+            <h2 class="section-title !text-[#669997]">Mentoria Xeque-Mate</h2>
+            <p class="article-text leading-[150%]">
               A Mentoria Xeque-Mate é um programa completo focado em vendas e
               experiência do cliente (CX). Desenvolvida por Fred Junco, a
               mentoria ajuda profissionais a aprimorar estratégias, técnicas e
@@ -96,7 +85,7 @@
           />
           <NuxtLink
             to="/contact"
-            class="mt-16 inline-block font-semibold text-[#669997] text-xl border border-[#669997] hover:bg-[#669997] hover:text-white rounded-md px-10 py-5 duration-200 text-center md:text-left"
+            class="link-button mt-16 text-[#669997] border-[#669997] hover:bg-[#669997] hover:text-white"
           >
             Quero conhecer a Mentoria
           </NuxtLink>
@@ -105,17 +94,12 @@
       <div
         class="flex-1 home-checkmate-image bg-top bg-clip hidden md:block"
       ></div>
-      <!-- Possibilidade de Backgroud Parcial -->
     </section>
     <section class="w-full h-screen bg-[#FFF8F4] flex">
       <article class="flex-1">
         <div class="m-16">
           <div class="space-y-6 mb-8">
-            <h2
-              class="text-[#E9763D] font-bold text-5xl text-center md:text-left"
-            >
-              Quick Wins
-            </h2>
+            <h2 class="section-title !text-[#E9763D]">Quick Wins</h2>
             <q
               class="flex md:block font-medium text-2xl tracking-tight not-italic no-quotes"
             >
@@ -132,7 +116,7 @@
                 class="inline-block rotate-180 h-5 ml-2 self-end"
               />
             </q>
-            <p class="text-[#6B6A66] font-normal text-lg leading-[150%]">
+            <p class="article-text leading-[150%]">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam
               vitae doloremque a, vero cupiditate maxime aperiam fugiat deserunt
               accusantium mollitia eaque unde ad voluptatibus, iure iste
@@ -141,7 +125,7 @@
           </div>
           <NuxtLink
             to="/contact"
-            class="mt-16 inline-block font-semibold text-[#E9763D] text-xl border border-[#E9763D] hover:bg-[#E9763D] hover:text-white rounded-md px-10 py-5 duration-200 text-center md:text-left"
+            class="link-button mt-16 text-[#E9763D] border-[#E9763D] hover:bg-[#E9763D] hover:text-white"
           >
             Quero adquirir meu livro
           </NuxtLink>
@@ -158,10 +142,8 @@
     </section>
     <section class="space-y-16 py-16 md:py-48">
       <div class="mx-16 md:mx-48 flex flex-col md:flex-row items-center gap-8">
-        <h2 class="text-[#1C3433] font-bold text-5xl text-center md:text-left">
-          Vídeos do Fred
-        </h2>
-        <p class="text-[#6B6A66] font-normal text-lg leading-[150%] max-w-xl">
+        <h2 class="section-title">Vídeos do Fred</h2>
+        <p class="article-text leading-[150%] max-w-xl">
           Explore uma seleção de conteúdos exclusivos, incluindo palestras,
           vídeos e insights compartilhados por Fred Junco.
         </p>
@@ -347,9 +329,7 @@
         </li>
       </ul>
       <div class="flex justify-center mx-8 md:mx-0">
-        <a
-          to="#"
-          class="group font-semibold text-[#53CC6C] text-xl border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200 cursor-pointer text-center md:text-left"
+        <a to="#" class="group link-button green"
           >Acesse o canal do Fred Junco
           <NuxtImg
             src="icons/arrow-up-right-icon.svg"
@@ -361,10 +341,8 @@
     </section>
     <section class="bg-[#F5F2EC] py-16 md:p-48 space-y-16">
       <div class="mx-16 md:mx-48 flex flex-col md:flex-row items-center gap-8">
-        <h2 class="text-[#1C3433] font-bold text-5xl text-center md:text-left">
-          Blog do Fred
-        </h2>
-        <p class="text-[#6B6A66] font-normal text-lg leading-[150%] max-w-xl">
+        <h2 class="section-title">Blog do Fred</h2>
+        <p class="article-text leading-[150%] max-w-xl">
           Explore conteúdos e artigos sobre o mundo do RH e relações
           interpessoais compartilhados por Fred Junco.
         </p>
@@ -377,7 +355,7 @@
             <NuxtImg
               src="img/fred-blog-1.jpg"
               alt="Post 1"
-              class="w-full absolute top-0 left-0 group-hover:scale-125 duration-200"
+              class="size-full absolute top-0 left-0 object-cover object-center group-hover:scale-125 duration-200"
             />
           </figure>
           <div
@@ -402,7 +380,7 @@
             <NuxtImg
               src="img/fred-blog-2.jpg"
               alt="Post 2"
-              class="w-full absolute top-0 left-0 group-hover:scale-125 duration-200"
+              class="size-full absolute top-0 left-0 object-cover object-center group-hover:scale-125 duration-200"
             />
           </figure>
           <div
@@ -429,7 +407,7 @@
             <NuxtImg
               src="img/fred-blog-3.jpg"
               alt="Post 3"
-              class="w-full absolute top-0 left-0 group-hover:scale-125 duration-200"
+              class="size-full absolute top-0 left-0 object-cover object-center group-hover:scale-125 duration-200"
             />
           </figure>
           <div class="p-8 md:space-y-6 bg-white rounded-b-3xl">
@@ -449,9 +427,7 @@
         </li>
       </ul>
       <div class="flex justify-center">
-        <a
-          to="#"
-          class="group font-semibold text-[#53CC6C] text-xl border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200 cursor-pointer text-center md:text-left"
+        <a to="#" class="group link-button green"
           >Acesse o blog do Fred Junco
           <NuxtImg
             src="icons/arrow-up-right-icon.svg"
@@ -470,14 +446,12 @@
         />
       </div>
       <div class="flex-1 py-8 md:p-16 space-y-8">
-        <h2 class="text-[#1C3433] font-bold text-5xl text-center md:text-left">
-          Quem é Fred Junco?
-        </h2>
+        <h2 class="section-title">Quem é Fred Junco?</h2>
         <h3 class="font-bold text-lg text-[#1C3433] uppercase">
           PALESTRANTE | LIDERANÇA | NEGOCIAÇÃO | NEUROVENDAS | TREINAMENTO
           CORPORATIVO | GESTÃO COMERCIAL
         </h3>
-        <p class="font-normal text-lg text-[#6B6A66]">
+        <p class="article-text">
           Com uma formação robusta e mais de 20 anos de experiência em liderança
           e vendas, Fred Junco é reconhecido por sua abordagem estratégica e
           personalizada. Sua metodologia exclusiva de treinamento já ajudou
@@ -485,10 +459,7 @@
           Conheça suas conquistas, prêmios e metodologias que fazem a diferença
           no mercado corporativo.
         </p>
-        <a
-          to="#"
-          class="group font-semibold text-[#53CC6C] text-xl border border-[#53CC6C] rounded-md px-10 py-5 inline-block hover:bg-[#53CC6C] hover:text-white duration-200 cursor-pointer text-center md:text-left"
-        >
+        <a to="#" class="group link-button green">
           Quero falar com o Fred Junco
 
           <NuxtImg
@@ -520,7 +491,7 @@
               ></span>
               <NuxtLink
                 to="/contact"
-                class="relative inline-flex font-semibold text-white text-xl bg-[#53CC6C] rounded-md px-10 py-5 text-center md:text-left"
+                class="link-button relative !inline-flex border-none text-white bg-[#53CC6C]"
               >
                 Quero me cadastrar no In Company
               </NuxtLink>

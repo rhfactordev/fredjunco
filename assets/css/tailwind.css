@@ -4,6 +4,31 @@
     filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(128deg) brightness(102%) contrast(104%);
 }
 
+.section-title {
+    @apply font-bold text-5xl text-[#1C3433] text-center md:text-left;
+}
+
+.article-text {
+    @apply font-normal text-lg text-[#6B6A66];
+}
+
+.link-button {
+    @apply font-semibold text-xl border rounded-md px-10 py-5 inline-block text-center md:text-left duration-200 cursor-pointer;
+}
+
+.link-button.green {
+    @apply text-[#53CC6C] border-[#53CC6C] hover:bg-[#53CC6C] hover:text-white;
+}
+
+@layer components {
+  .card {
+    background-color: var(--color-white);
+    border-radius: var(--rounded-lg);
+    padding: var(--spacing-6);
+    box-shadow: var(--shadow-xl);
+  }
+}
+
 body {
     font-family: 'Onest', sans-serif;
     /* antialiased */

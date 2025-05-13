@@ -110,7 +110,7 @@
       </div>
     </div>
     <div class="inline-block h-px bg-[#2C5250] w-full"></div>
-    <p class="text-white font-normal text-lg text-center cursor-default">
+    <p class="article-text !text-white text-center cursor-default">
       Fred Junco - Copyright &copy;{{ currentYear }}
     </p>
   </footer>

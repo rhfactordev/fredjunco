@@ -2,9 +2,7 @@
   <Header />
   <main>
     <section class="p-16 space-y-8 md:space-y-16">
-      <h2 class="font-bold text-5xl text-[#1C3433] text-center md:text-left">
-        In Company
-      </h2>
+      <h2 class="section-title">In Company</h2>
       <div class="flex flex-col md:flex-row">
         <div class="flex-1 space-y-16 hidden md:block">
           <NuxtImg
@@ -15,7 +13,7 @@
         </div>
         <article class="flex-1 md:px-16">
           <div class="space-y-8 mb-8">
-            <p class="font-normal text-lg text-[#6B6A66]">
+            <p class="article-text">
               O maior desafio do RH é garantir um ambiente de trabalho
               produtivo, reter talentos e reduzir custos com turnover. Cada
               colaborador perdido representa um investimento desperdiçado em
@@ -25,7 +23,7 @@
               disso, estruturamos treinamentos personalizados, focados em
               soluções reais para o seu time.
             </p>
-            <p class="font-normal text-lg text-[#6B6A66]">
+            <p class="article-text">
               Nosso objetivo é otimizar o desempenho, aumentar o faturamento e
               elevar a qualidade no ambiente corporativo. Com uma abordagem
               estratégica e prática, ajudamos sua equipe a trabalhar com mais
@@ -39,9 +37,7 @@
       </div>
     </section>
     <section class="space-y-8 md:space-y-16 py-16 overflow-x-hidden">
-      <h2 class="font-bold text-5xl text-[#1C3433] text-center md:text-left">
-        Como Funciona
-      </h2>
+      <h2 class="section-title">Como Funciona</h2>
       <ul
         class="flex flex-nowrap text-[#6B6A66] text-lg font-normal text-center md:px-8"
       >
@@ -122,17 +118,15 @@
       <PageController />
     </section>
     <section class="p-16 space-y-8">
-      <h2 class="font-bold text-5xl text-[#1C3433] text-center md:text-left">
-        Para quem é o In Company?
-      </h2>
+      <h2 class="section-title">Para quem é o In Company?</h2>
       <div class="flex flex-col md:flex-row items-center gap-16 md:gap-32">
         <div class="flex-1 space-y-8">
-          <p class="font-normal text-lg text-[#6B6A66]">
+          <p class="article-text">
             Os treinamentos "In Company" são voltados para empresas de diversos
             portes e segmentos que desejam aprimorar seus processos internos,
             capacitar seus colaboradores e fortalecer suas equipes.
           </p>
-          <p class="font-normal text-lg text-[#6B6A66]">
+          <p class="article-text">
             Se sua empresa busca melhorar o desempenho organizacional e garantir
             um ambiente de trabalho mais eficiente e produtivo, esse programa é
             para você.
@@ -153,9 +147,7 @@
       </div>
     </section>
     <section class="p-16 md:p-32 space-y-16 bg-[#F5F2EC]">
-      <h2 class="font-bold text-5xl text-[#1C3433] text-center md:text-left">
-        Serviços mais procurados:
-      </h2>
+      <h2 class="section-title">Serviços mais procurados:</h2>
       <ul
         class="w-full flex flex-col md:flex-row items-center md:justify-center gap-16"
       >
@@ -168,7 +160,7 @@
           <h4 class="text-2xl font-semibold text-[#1C3433]">
             Treinamentos e desenvolvimento
           </h4>
-          <p class="font-normal text-lg text-[#6B6A66]">
+          <p class="article-text">
             Capacitação em liderança, vendas, negociação e comunicação.
           </p>
         </li>
@@ -181,7 +173,7 @@
           <h4 class="text-2xl font-semibold text-[#1C3433]">
             Consultorias especializadas
           </h4>
-          <p class="font-normal text-lg text-[#6B6A66]">
+          <p class="article-text">
             Diagnóstico e implementação de estratégias em gestão, marketing e
             recursos humanos.
           </p>
@@ -195,7 +187,7 @@
           <h4 class="text-2xl font-semibold text-[#1C3433]">
             Programas de bem-estar corporativo
           </h4>
-          <p class="font-normal text-lg text-[#6B6A66]">
+          <p class="article-text">
             Técnicas para melhoria do clima organizacional e retenção de
             talentos.
           </p>
@@ -203,16 +195,14 @@
       </ul>
     </section>
     <section class="p-16 space-y-8">
-      <h2 class="font-bold text-5xl text-[#1C3433] text-center md:text-left">
-        Benefícios In Company?
-      </h2>
+      <h2 class="section-title">Benefícios In Company?</h2>
       <div class="flex flex-col md:flex-row gap-16 md:gap-32">
         <div class="flex-1 space-y-8">
-          <p class="font-normal text-lg text-[#6B6A66]">
+          <p class="article-text">
             Investir no treinamento corporativo "In Company" traz vantagens
             diretas para a empresa e seus colaboradores.
           </p>
-          <p class="font-normal text-lg text-[#6B6A66]">
+          <p class="article-text">
             Com uma abordagem personalizada e focada nas reais necessidades do
             seu time, você garante melhorias significativas em diversos aspectos
             organizacionais.

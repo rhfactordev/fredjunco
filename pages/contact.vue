@@ -2,9 +2,7 @@
   <Header />
   <main>
     <section class="p-16 space-y-8 md:space-y-16">
-      <h2 class="font-bold text-5xl text-[#1C3433] text-center md:text-left">
-        Quem é Fred Junco?
-      </h2>
+      <h2 class="section-title">Quem é Fred Junco?</h2>
       <div class="flex flex-col md:flex-row gap-8">
         <div class="flex-1 md:space-y-16">
           <NuxtImg
@@ -19,7 +17,7 @@
               PALESTRANTE | LIDERANÇA | NEGOCIAÇÃO | NEUROVENDAS | TREINAMENTO
               CORPORATIVO | GESTÃO COMERCIAL
             </h3>
-            <p class="font-normal text-lg text-[#6B6A66]">
+            <p class="article-text">
               Com uma formação robusta e mais de 20 anos de experiência em
               liderança e vendas, Fred Junco é reconhecido por sua abordagem
               estratégica e personalizada. Sua metodologia exclusiva de
@@ -165,7 +163,7 @@
           ></textarea>
           <button
             type="submit"
-            class="col-span-2 font-semibold text-white text-xl bg-[#53CC6C] rounded-md px-10 py-5 inline-block cursor-pointer"
+            class="link-button !text-center col-span-2 text-white border-none bg-[#53CC6C]"
           >
             Enviar mensagem
           </button>
