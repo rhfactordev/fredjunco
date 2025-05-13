@@ -44,14 +44,6 @@ body {
     background-image: url("../../public/img/fred-hero.jpg");
 }
 
-.home-in-company-image {
-    background-image: url("../../public/img/fred-home-in-company.jpg");
-}
-
-.home-checkmate-image {
-    background-image: url("../../public/img/fred-home-checkmate.jpg");
-}
-
 .home-quick-wins-image {
     background-image: url("../../public/img/fred-home-quick-wins.png");
 }
@@ -62,24 +54,4 @@ body {
 
 .font-inter {
     font-family: 'Inter', sans-serif;
-}
-
-.video-image-1 {
-    background-image: url("../../public/img/fred-video-1.jpg");
-}
-
-.video-image-2 {
-    background-image: url("../../public/img/fred-video-2.jpg");
-}
-
-.video-image-3 {
-    background-image: url("../../public/img/fred-video-3.jpg");
-}
-
-.video-image-4 {
-    background-image: url("../../public/img/fred-video-4.jpg");
-}
-
-.video-image-5 {
-    background-image: url("../../public/img/fred-video-5.jpg");
 }

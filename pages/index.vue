@@ -33,9 +33,9 @@
       </div>
     </section>
     <section class="bg-[#2B2D3D] w-full h-screen flex">
-      <div
-        class="flex-1 home-in-company-image bg-top bg-clip hidden md:block"
-      ></div>
+      <figure class="flex-1 overflow-hidden hidden md:block">
+        <NuxtImg src="img/fred-home-in-company.jpg" alt="In Company" />
+      </figure>
       <article class="flex-1">
         <div class="m-16">
           <div class="space-y-6 mb-8">
@@ -91,9 +91,9 @@
           </NuxtLink>
         </div>
       </article>
-      <div
-        class="flex-1 home-checkmate-image bg-top bg-clip hidden md:block"
-      ></div>
+      <figure class="flex-1 overflow-hidden hidden md:block">
+        <NuxtImg src="img/fred-home-checkmate.jpg" alt="In Company" />
+      </figure>
     </section>
     <section class="w-full h-screen bg-[#FFF8F4] flex">
       <article class="flex-1">
@@ -132,11 +132,15 @@
         </div>
       </article>
       <div class="flex-1 relative overflow-y-hidden hidden md:block">
+        <figure class="relative z-20">
+          <NuxtImg
+            src="img/fred-home-quick-wins.png"
+            alt="Quick Wins"
+            class="scale-75"
+          />
+        </figure>
         <div
-          class="relative home-quick-wins-image size-full bg-top bg-clip z-20"
-        ></div>
-        <div
-          class="absolute top-16 bg-[#E9763D] size-full z-10 rounded-3xl"
+          class="absolute top-64 bg-[#E9763D] size-full z-10 rounded-3xl"
         ></div>
       </div>
     </section>
