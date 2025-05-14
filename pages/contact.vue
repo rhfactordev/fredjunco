@@ -43,7 +43,7 @@
               <NuxtImg
                 src="icons/email-icon.svg"
                 alt="E-mail"
-                class="size-7.5 inline-block mr-2"
+                class="size-6 inline-block mr-2"
               />
               <span class="inline-block my-auto">contato@fredjunco.com.br</span>
             </a>
@@ -56,7 +56,7 @@
               <NuxtImg
                 src="icons/whatsapp-icon.svg"
                 alt="Telefone"
-                class="size-7.5 inline-block mr-2"
+                class="size-6 inline-block mr-2"
               />
               <span class="inline-block my-auto">(31) 9 9992-5522</span>
             </a>
@@ -69,7 +69,7 @@
               <NuxtImg
                 src="icons/map-pin-icon.svg"
                 alt="Telefone"
-                class="size-7.5 inline-block mr-2"
+                class="size-6 inline-block mr-2"
               />
               <span class="inline-block my-auto"
                 >Alameda da Paz, 47, 7520-110 Sines
@@ -85,7 +85,7 @@
                 <NuxtImg
                   src="icons/linkedin-icon.svg"
                   alt="LinkedIn"
-                  class="size-7.5"
+                  class="size-6"
                 />
               </a>
             </li>
@@ -94,7 +94,7 @@
                 <NuxtImg
                   src="icons/facebook-icon.svg"
                   alt="Facebook"
-                  class="size-7.5"
+                  class="size-6"
                 />
               </a>
             </li>
@@ -103,7 +103,7 @@
                 <NuxtImg
                   src="icons/instagram-icon.svg"
                   alt="Instagram"
-                  class="size-7.5"
+                  class="size-6"
                 />
               </a>
             </li>
@@ -112,7 +112,7 @@
                 <NuxtImg
                   src="icons/youtube-icon.svg"
                   alt="YouTube"
-                  class="size-7.5"
+                  class="size-6"
                 />
               </a>
             </li>

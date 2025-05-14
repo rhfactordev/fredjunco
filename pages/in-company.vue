@@ -36,7 +36,7 @@
         </article>
       </div>
     </section>
-    <section class="space-y-8 md:space-y-16 py-16 overflow-x-hidden">
+    <section class="space-y-8 md:space-y-16 py-16 md:px-16 overflow-x-hidden">
       <h2 class="section-title">Como Funciona</h2>
       <ul
         class="flex flex-nowrap text-[#6B6A66] text-base font-normal text-center md:px-8"
@@ -50,7 +50,7 @@
             alt="->"
           />
           <div
-            class="bg-[#C4FFD0] text-[#53CC6C] text-2xl font-bold size-25 p-2.5 rounded-[50%] flex justify-center items-center mx-auto"
+            class="bg-[#C4FFD0] text-[#53CC6C] text-2xl font-bold size-18 p-2.5 rounded-[50%] flex justify-center items-center mx-auto"
           >
             <h3>01</h3>
           </div>
@@ -66,7 +66,7 @@
             alt="->"
           />
           <div
-            class="bg-[#C4FFD0] text-[#53CC6C] text-2xl font-bold size-25 p-2.5 rounded-[50%] flex justify-center items-center mx-auto"
+            class="bg-[#C4FFD0] text-[#53CC6C] text-2xl font-bold size-18 p-2.5 rounded-[50%] flex justify-center items-center mx-auto"
           >
             <h3>02</h3>
           </div>
@@ -87,7 +87,7 @@
             alt="->"
           />
           <div
-            class="bg-[#C4FFD0] text-[#53CC6C] text-2xl font-bold size-25 p-2.5 rounded-[50%] flex justify-center items-center mx-auto"
+            class="bg-[#C4FFD0] text-[#53CC6C] text-2xl font-bold size-18 p-2.5 rounded-[50%] flex justify-center items-center mx-auto"
           >
             <h3>03</h3>
           </div>
@@ -105,7 +105,7 @@
             alt="->"
           />
           <div
-            class="bg-[#C4FFD0] text-[#53CC6C] text-2xl font-bold size-25 p-2.5 rounded-[50%] flex justify-center items-center mx-auto"
+            class="bg-[#C4FFD0] text-[#53CC6C] text-2xl font-bold size-18 p-2.5 rounded-[50%] flex justify-center items-center mx-auto"
           >
             <h3>04</h3>
           </div>
@@ -155,7 +155,7 @@
           <NuxtImg
             src="icons/rocket-icon.svg"
             alt="Foguete"
-            class="size-12 mx-auto md:mx-0"
+            class="size-10 mx-auto md:mx-0"
           />
           <h4 class="text-xl font-semibold text-[#1C3433]">
             Treinamentos e desenvolvimento
@@ -168,7 +168,7 @@
           <NuxtImg
             src="icons/megaphone-icon.svg"
             alt="Megafone"
-            class="size-12 mx-auto md:mx-0"
+            class="size-10 mx-auto md:mx-0"
           />
           <h4 class="text-xl font-semibold text-[#1C3433]">
             Consultorias especializadas
@@ -182,7 +182,7 @@
           <NuxtImg
             src="icons/user-with-tie-icon.svg"
             alt="Corporativo"
-            class="size-12 mx-auto md:mx-0"
+            class="size-10 mx-auto md:mx-0"
           />
           <h4 class="text-xl font-semibold text-[#1C3433]">
             Programas de bem-estar corporativo
@@ -216,7 +216,7 @@
               <div>
                 <NuxtImg
                   src="icons/checked-icon.svg"
-                  class="size-8 inline-block mr-2"
+                  class="size-6 inline-block mr-2"
                 />
               </div>
               <div class="pl-2 md:pl-0 w-xl">
@@ -231,7 +231,7 @@
               <div>
                 <NuxtImg
                   src="icons/checked-icon.svg"
-                  class="size-8 inline-block mr-2"
+                  class="size-6 inline-block mr-2"
                 />
               </div>
               <div class="pl-2 md:pl-0 w-xl">
@@ -247,7 +247,7 @@
               <div>
                 <NuxtImg
                   src="icons/checked-icon.svg"
-                  class="size-8 inline-block mr-2"
+                  class="size-6 inline-block mr-2"
                 />
               </div>
               <div class="pl-2 md:pl-0 w-xl">
@@ -264,7 +264,7 @@
               <div>
                 <NuxtImg
                   src="icons/checked-icon.svg"
-                  class="size-8 inline-block mr-2"
+                  class="size-6 inline-block mr-2"
                 />
               </div>
               <div class="pl-2 md:pl-0 w-xl">

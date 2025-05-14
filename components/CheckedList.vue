@@ -5,7 +5,7 @@
     "
   >
     <li v-for="(item, i) in items" :key="`${id}-${i}`">
-      <NuxtImg src="icons/checked-icon.svg" class="size-8 inline-block mr-2" />
+      <NuxtImg src="icons/checked-icon.svg" class="size-6 inline-block mr-2" />
       {{ item }}
     </li>
   </ul>

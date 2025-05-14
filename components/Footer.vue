@@ -15,7 +15,7 @@
               <NuxtImg
                 src="icons/instagram-icon.svg"
                 alt="Instagram"
-                class="size-12"
+                class="size-8"
               />
             </a>
           </li>
@@ -24,7 +24,7 @@
               <NuxtImg
                 src="icons/facebook-icon.svg"
                 alt="Facebook"
-                class="size-12"
+                class="size-8"
               />
             </a>
           </li>
@@ -33,7 +33,7 @@
               <NuxtImg
                 src="icons/linkedin-icon.svg"
                 alt="LinkedIn"
-                class="size-12"
+                class="size-8"
               />
             </a>
           </li>
@@ -42,7 +42,7 @@
               <NuxtImg
                 src="icons/youtube-icon.svg"
                 alt="YouTube"
-                class="size-12"
+                class="size-8"
               />
             </a>
           </li>
@@ -91,7 +91,7 @@
               <NuxtImg
                 src="icons/email-icon.svg"
                 alt="E-mail"
-                class="size-6 inline-block mr-2"
+                class="size-4 inline-block mr-2"
               />
               <span>contato@fredjunco.com.br</span>
             </a>
@@ -101,7 +101,7 @@
               <NuxtImg
                 src="icons/whatsapp-icon.svg"
                 alt="Telefone"
-                class="size-6 inline-block mr-2"
+                class="size-4 inline-block mr-2"
               />
               <span>(31) 99992-5522</span>
             </a>

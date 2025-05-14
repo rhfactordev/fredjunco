@@ -9,27 +9,27 @@
     </div>
     <ul class="flex justify-between md:justify-center md:gap-32 mx-8">
       <li>
-        <NuxtImg src="icons/slack-light-icon.svg" alt="Slack" class="size-16" />
+        <NuxtImg src="icons/slack-light-icon.svg" alt="Slack" class="size-12" />
       </li>
       <li>
         <NuxtImg
           src="icons/google-light-icon.svg"
           alt="Google"
-          class="size-16"
+          class="size-12"
         />
       </li>
       <li>
         <NuxtImg
           src="icons/zapier-light-icon.svg"
           alt="Zapier"
-          class="size-16"
+          class="size-12"
         />
       </li>
       <li>
         <NuxtImg
           src="icons/hubspot-light-icon.svg"
           alt="Hubspot"
-          class="size-16"
+          class="size-12"
         />
       </li>
     </ul>
@@ -38,17 +38,17 @@
         <NuxtImg
           src="icons/hubspot-light-icon.svg"
           alt="Hubspot"
-          class="size-16"
+          class="size-12"
         />
       </li>
       <li>
-        <NuxtImg src="icons/slack-light-icon.svg" alt="Slack" class="size-16" />
+        <NuxtImg src="icons/slack-light-icon.svg" alt="Slack" class="size-12" />
       </li>
       <li>
         <NuxtImg
           src="icons/google-light-icon.svg"
           alt="Google"
-          class="size-16"
+          class="size-12"
         />
       </li>
     </ul>

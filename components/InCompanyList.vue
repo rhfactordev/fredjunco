@@ -3,20 +3,17 @@
     :class="cn('text-white text-base font-normal space-y-4 mb-16', className)"
   >
     <li>
-      <NuxtImg src="icons/users-icon.svg" class="size-10 inline-block mr-2" />
+      <NuxtImg src="icons/users-icon.svg" class="size-8 inline-block mr-2" />
       Até 200 participantes
     </li>
     <li>
-      <NuxtImg
-        src="icons/warranty-icon.svg"
-        class="size-10 inline-block mr-2"
-      />
+      <NuxtImg src="icons/warranty-icon.svg" class="size-8 inline-block mr-2" />
       Garantia de Satisfação
     </li>
     <li>
       <NuxtImg
         src="icons/mac-browser-icon.svg"
-        class="size-10 inline-block mr-2"
+        class="size-8 inline-block mr-2"
       />
       Possibilidade On-Line
     </li>

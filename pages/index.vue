@@ -85,7 +85,7 @@
           />
           <NuxtLink
             to="/contact"
-            class="link-button mt-16 text-[#669997] border-[#669997] hover:bg-[#669997] hover:text-white"
+            class="link-button mt-16 text-[#669997] border-[#669997] hover:bg-[#669997] hover:text-white !block md:!inline-block"
           >
             Quero conhecer a Mentoria
           </NuxtLink>
@@ -125,7 +125,7 @@
           </div>
           <NuxtLink
             to="/contact"
-            class="link-button mt-16 text-[#E9763D] border-[#E9763D] hover:bg-[#E9763D] hover:text-white"
+            class="link-button mt-16 text-[#E9763D] border-[#E9763D] hover:bg-[#E9763D] hover:text-white !block md:!inline-block"
           >
             Quero adquirir meu livro
           </NuxtLink>
@@ -185,7 +185,7 @@
                 <NuxtImg
                   src="icons/arrow-up-right-icon.svg"
                   alt="->"
-                  class="ml-2 size-5 inline-block white-filter"
+                  class="ml-2 size-4 inline-block white-filter"
                 />
               </span>
             </div>
@@ -220,7 +220,7 @@
                 <NuxtImg
                   src="icons/arrow-up-right-icon.svg"
                   alt="->"
-                  class="ml-2 size-5 inline-block white-filter"
+                  class="ml-2 size-4 inline-block white-filter"
                 />
               </span>
             </div>
@@ -255,7 +255,7 @@
                 <NuxtImg
                   src="icons/arrow-up-right-icon.svg"
                   alt="->"
-                  class="ml-2 size-5 inline-block white-filter"
+                  class="ml-2 size-4 inline-block white-filter"
                 />
               </span>
             </div>
@@ -290,7 +290,7 @@
                 <NuxtImg
                   src="icons/arrow-up-right-icon.svg"
                   alt="->"
-                  class="ml-2 size-5 inline-block white-filter"
+                  class="ml-2 size-4 inline-block white-filter"
                 />
               </span>
             </div>
@@ -325,7 +325,7 @@
                 <NuxtImg
                   src="icons/arrow-up-right-icon.svg"
                   alt="->"
-                  class="ml-2 size-5 inline-block white-filter"
+                  class="ml-2 size-4 inline-block white-filter"
                 />
               </span>
             </div>
@@ -338,7 +338,7 @@
           <NuxtImg
             src="icons/arrow-up-right-icon.svg"
             alt="->"
-            class="md:ml-4 size-6 inline-block group-hover:white-filter"
+            class="md:ml-4 size-5 inline-block group-hover:white-filter"
           />
         </a>
       </div>
@@ -374,7 +374,7 @@
               <NuxtImg
                 src="icons/arrow-up-right-icon.svg"
                 alt="->"
-                class="size-5 inline-block"
+                class="size-4 inline-block"
               />
             </span>
           </div>
@@ -399,7 +399,7 @@
               <NuxtImg
                 src="icons/arrow-up-right-icon.svg"
                 alt="->"
-                class="size-5 inline-block"
+                class="size-4 inline-block"
               />
             </span>
           </div>
@@ -424,7 +424,7 @@
               <NuxtImg
                 src="icons/arrow-up-right-icon.svg"
                 alt="->"
-                class="size-5 inline-block"
+                class="size-4 inline-block"
               />
             </span>
           </div>
@@ -436,7 +436,7 @@
           <NuxtImg
             src="icons/arrow-up-right-icon.svg"
             alt="->"
-            class="ml-4 size-6 inline-block group-hover:white-filter"
+            class="ml-4 size-5 inline-block group-hover:white-filter"
           />
         </a>
       </div>
@@ -463,13 +463,13 @@
           Conheça suas conquistas, prêmios e metodologias que fazem a diferença
           no mercado corporativo.
         </p>
-        <a to="#" class="group link-button green">
+        <a to="#" class="group link-button green !block md:!inline-block">
           Quero falar com o Fred Junco
 
           <NuxtImg
             src="icons/arrow-up-right-icon.svg"
             alt="->"
-            class="ml-4 size-6 inline-block group-hover:white-filter"
+            class="ml-4 size-5 inline-block group-hover:white-filter"
           />
         </a>
       </div>
@@ -478,8 +478,8 @@
     <section class="md:p-64">
       <div class="flex items-center bg-[#2B2D3D] md:rounded-3xl">
         <article class="flex-1">
-          <div class="space-y-16 p-16 md:p-32 pr-0">
-            <h2 class="text-[#53CC6C] font-bold text-4xl">In Company</h2>
+          <div class="space-y-16 p-16 md:p-32 md:pr-0">
+            <h2 class="section-title !text-[#53CC6C]">In Company</h2>
             <p class="font-normal text-base text-white">
               Com uma formação robusta e mais de 20 anos de experiência em
               liderança e vendas, Fred Junco é reconhecido por sua abordagem
@@ -489,7 +489,7 @@
               metodologias que fazem a diferença no mercado corporativo.
             </p>
             <InCompanyList />
-            <div class="group relative flex w-fit z-40">
+            <div class="group relative flex mx-auto md:mx-0 w-fit z-40">
               <span
                 class="absolute inset-0 border border-transparent group-hover:border-[#53CC6C] group-hover:animate-ping rounded-md hidden md:inline"
               ></span>
