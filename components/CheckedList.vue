@@ -1,7 +1,7 @@
 <template>
   <ul
     :class="
-      cn('flex flex-col gap-4 font-medium text-lg text-[#1C3433]', className)
+      cn('flex flex-col gap-4 font-medium text-base text-[#1C3433]', className)
     "
   >
     <li v-for="(item, i) in items" :key="`${id}-${i}`">

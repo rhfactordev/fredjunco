@@ -1,5 +1,7 @@
 <template>
-  <ul :class="cn('text-white text-lg font-normal space-y-4 mb-16', className)">
+  <ul
+    :class="cn('text-white text-base font-normal space-y-4 mb-16', className)"
+  >
     <li>
       <NuxtImg src="icons/users-icon.svg" class="size-10 inline-block mr-2" />
       Até 200 participantes

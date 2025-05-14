@@ -50,12 +50,12 @@
       </div>
       <div class="flex-1 md:flex-2">
         <h2
-          class="font-inter font-extrabold text-[#53CC6C] text-2xl mb-6 text-center md:text-left"
+          class="font-inter font-extrabold text-[#53CC6C] text-xl mb-6 text-center md:text-left"
         >
           Links
         </h2>
         <ul
-          class="text-white text-lg font-normal flex flex-col items-center md:grid grid-cols-2 gap-4"
+          class="text-white text-base font-normal flex flex-col items-center md:grid grid-cols-2 gap-4"
         >
           <li>
             <NuxtLink class="hover:underline" to="/"> Página Inicial </NuxtLink>
@@ -79,12 +79,12 @@
       </div>
       <div class="flex-1">
         <h2
-          class="font-inter font-extrabold text-[#53CC6C] text-2xl mb-6 text-center md:text-left"
+          class="font-inter font-extrabold text-[#53CC6C] text-xl mb-6 text-center md:text-left"
         >
           Contatos
         </h2>
         <ul
-          class="text-white text-lg font-normal space-y-4 text-center md:text-left"
+          class="text-white text-base font-normal space-y-4 text-center md:text-left"
         >
           <li>
             <a href="mailto:contato@fredjunco.com.br">

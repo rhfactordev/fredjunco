@@ -13,7 +13,7 @@
         </div>
         <article class="flex-1 md:px-16">
           <div class="space-y-8 mb-8">
-            <h3 class="font-bold text-lg text-[#1C3433] uppercase">
+            <h3 class="font-bold text-base text-[#1C3433] uppercase">
               PALESTRANTE | LIDERANÇA | NEGOCIAÇÃO | NEUROVENDAS | TREINAMENTO
               CORPORATIVO | GESTÃO COMERCIAL
             </h3>
@@ -35,9 +35,9 @@
       </div>
     </section>
     <section class="bg-[#F5F2EC] flex flex-col md:flex-row p-16 md:gap-0 gap-8">
-      <div class="flex-1 text-[#6B6A66] text-lg font-normal space-y-8">
+      <div class="flex-1 text-[#6B6A66] text-base font-normal space-y-8">
         <div class="space-y-4">
-          <h4 class="font-semibold text-[#1C3433] text-2xl">E-mail</h4>
+          <h4 class="font-semibold text-[#1C3433] text-xl">E-mail</h4>
           <p>
             <a href="mailto:contato@fredjunco.com.br">
               <NuxtImg
@@ -50,7 +50,7 @@
           </p>
         </div>
         <div class="space-y-4">
-          <h4 class="font-semibold text-[#1C3433] text-2xl">Telefone</h4>
+          <h4 class="font-semibold text-[#1C3433] text-xl">Telefone</h4>
           <p>
             <a href="https://wa.me/5531999925522">
               <NuxtImg
@@ -63,7 +63,7 @@
           </p>
         </div>
         <div class="space-y-4">
-          <h4 class="font-semibold text-[#1C3433] text-2xl">Endereço</h4>
+          <h4 class="font-semibold text-[#1C3433] text-xl">Endereço</h4>
           <p>
             <a href="https://g.co/kgs/Gbv7f35">
               <NuxtImg
@@ -78,7 +78,7 @@
           </p>
         </div>
         <div class="space-y-4">
-          <h4 class="font-semibold text-[#1C3433] text-2xl">Social</h4>
+          <h4 class="font-semibold text-[#1C3433] text-xl">Social</h4>
           <ul class="flex gap-4">
             <li>
               <a href="#">
@@ -120,7 +120,7 @@
         </div>
       </div>
       <div class="flex-1 space-y-8">
-        <h4 class="font-semibold text-[#1C3433] text-2xl">
+        <h4 class="font-semibold text-[#1C3433] text-xl">
           Preencha o formulário abaixo para entrar em contato com Fred Junco e
           iniciar a transformação na sua empresa.
         </h4>

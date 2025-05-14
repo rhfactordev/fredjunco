@@ -39,7 +39,7 @@
     <section class="space-y-8 md:space-y-16 py-16 overflow-x-hidden">
       <h2 class="section-title">Como Funciona</h2>
       <ul
-        class="flex flex-nowrap text-[#6B6A66] text-lg font-normal text-center md:px-8"
+        class="flex flex-nowrap text-[#6B6A66] text-base font-normal text-center md:px-8"
       >
         <li
           class="shrink-0 w-[calc(100vw-6rem)] md:w-xl relative space-y-8 p-4"
@@ -50,11 +50,11 @@
             alt="->"
           />
           <div
-            class="bg-[#C4FFD0] text-[#53CC6C] text-3xl font-bold size-25 p-2.5 rounded-[50%] flex justify-center items-center mx-auto"
+            class="bg-[#C4FFD0] text-[#53CC6C] text-2xl font-bold size-25 p-2.5 rounded-[50%] flex justify-center items-center mx-auto"
           >
             <h3>01</h3>
           </div>
-          <h4 class="text-2xl font-semibold text-[#1C3433]">Contato inicial</h4>
+          <h4 class="text-xl font-semibold text-[#1C3433]">Contato inicial</h4>
           <p>Preencha o formulário e receba o contato da nossa equipe.</p>
         </li>
         <li
@@ -66,11 +66,11 @@
             alt="->"
           />
           <div
-            class="bg-[#C4FFD0] text-[#53CC6C] text-3xl font-bold size-25 p-2.5 rounded-[50%] flex justify-center items-center mx-auto"
+            class="bg-[#C4FFD0] text-[#53CC6C] text-2xl font-bold size-25 p-2.5 rounded-[50%] flex justify-center items-center mx-auto"
           >
             <h3>02</h3>
           </div>
-          <h4 class="text-2xl font-semibold text-[#1C3433]">
+          <h4 class="text-xl font-semibold text-[#1C3433]">
             Briefing Estratégico
           </h4>
           <p>
@@ -87,11 +87,11 @@
             alt="->"
           />
           <div
-            class="bg-[#C4FFD0] text-[#53CC6C] text-3xl font-bold size-25 p-2.5 rounded-[50%] flex justify-center items-center mx-auto"
+            class="bg-[#C4FFD0] text-[#53CC6C] text-2xl font-bold size-25 p-2.5 rounded-[50%] flex justify-center items-center mx-auto"
           >
             <h3>03</h3>
           </div>
-          <h4 class="text-2xl font-semibold text-[#1C3433]">
+          <h4 class="text-xl font-semibold text-[#1C3433]">
             Proposta Personalizada
           </h4>
           <p>Apresentamos um plano estratégico adaptado à sua realidade.</p>
@@ -105,11 +105,11 @@
             alt="->"
           />
           <div
-            class="bg-[#C4FFD0] text-[#53CC6C] text-3xl font-bold size-25 p-2.5 rounded-[50%] flex justify-center items-center mx-auto"
+            class="bg-[#C4FFD0] text-[#53CC6C] text-2xl font-bold size-25 p-2.5 rounded-[50%] flex justify-center items-center mx-auto"
           >
             <h3>04</h3>
           </div>
-          <h4 class="text-2xl font-semibold text-[#1C3433]">
+          <h4 class="text-xl font-semibold text-[#1C3433]">
             Onboarding e Planejamento
           </h4>
           <p>Definição do cronograma e estrutura do projeto.</p>
@@ -157,7 +157,7 @@
             alt="Foguete"
             class="size-12 mx-auto md:mx-0"
           />
-          <h4 class="text-2xl font-semibold text-[#1C3433]">
+          <h4 class="text-xl font-semibold text-[#1C3433]">
             Treinamentos e desenvolvimento
           </h4>
           <p class="article-text">
@@ -170,7 +170,7 @@
             alt="Megafone"
             class="size-12 mx-auto md:mx-0"
           />
-          <h4 class="text-2xl font-semibold text-[#1C3433]">
+          <h4 class="text-xl font-semibold text-[#1C3433]">
             Consultorias especializadas
           </h4>
           <p class="article-text">
@@ -184,7 +184,7 @@
             alt="Corporativo"
             class="size-12 mx-auto md:mx-0"
           />
-          <h4 class="text-2xl font-semibold text-[#1C3433]">
+          <h4 class="text-xl font-semibold text-[#1C3433]">
             Programas de bem-estar corporativo
           </h4>
           <p class="article-text">
@@ -210,7 +210,7 @@
         </div>
         <div class="flex-1">
           <ul
-            class="space-y-5 text-base text-[#6B6A66] font-medium leading-[170%]"
+            class="space-y-5 text-sm text-[#6B6A66] font-medium leading-[170%]"
           >
             <li class="flex space-y-2">
               <div>
