@@ -4,7 +4,7 @@
     <section class="p-16 space-y-8 md:space-y-16">
       <h2 class="section-title">In Company</h2>
       <div class="flex flex-col md:flex-row">
-        <div class="flex-1 space-y-16 hidden md:block">
+        <div class="flex-1 pb-8 md:pb-0">
           <NuxtImg
             src="img/fred-in-company.jpg"
             alt="Fred Junco In Company"
