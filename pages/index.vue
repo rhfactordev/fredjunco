@@ -32,9 +32,15 @@
         </article>
       </div>
     </section>
-    <section class="bg-[#2B2D3D] w-full h-screen flex">
-      <figure class="flex-1 overflow-hidden hidden md:block">
-        <NuxtImg src="img/fred-home-in-company.jpg" alt="In Company" />
+    <section
+      class="bg-[#2B2D3D] w-full md:h-screen flex flex-col-reverse md:flex-row"
+    >
+      <figure class="flex-1 md:overflow-hidden p-16 pt-0 md:p-0">
+        <NuxtImg
+          src="img/fred-home-in-company.jpg"
+          alt="In Company"
+          class="rounded-3xl md:rounded-none"
+        />
       </figure>
       <article class="flex-1">
         <div class="m-16">
@@ -49,13 +55,13 @@
             </p>
           </div>
           <InCompanyList />
-          <div class="group relative flex w-fit">
+          <div class="group relative flex w-full md:w-fit cursor-pointer">
             <span
               class="absolute inset-0 border border-transparent group-hover:border-[#53CC6C] group-hover:animate-ping rounded-md hidden md:inline"
             ></span>
             <NuxtLink
               to="/contact"
-              class="link-button !inline-flex text-white border-none bg-[#53CC6C]"
+              class="mx-auto md:mx-0 link-button !inline-flex text-white border-none bg-[#53CC6C]"
             >
               Quero me cadastrar no In Company
             </NuxtLink>
@@ -63,7 +69,7 @@
         </div>
       </article>
     </section>
-    <section class="w-full h-screen flex">
+    <section class="w-full md:h-screen flex flex-col md:flex-row">
       <article class="flex-1">
         <div class="m-16">
           <div class="space-y-6 mb-8">
@@ -91,11 +97,15 @@
           </NuxtLink>
         </div>
       </article>
-      <figure class="flex-1 overflow-hidden hidden md:block">
-        <NuxtImg src="img/fred-home-checkmate.jpg" alt="In Company" />
+      <figure class="flex-1 md:overflow-hidden p-16 pt-0 md:p-0">
+        <NuxtImg
+          src="img/fred-home-checkmate.jpg"
+          alt="In Company"
+          class="rounded-3xl md:rounded-none"
+        />
       </figure>
     </section>
-    <section class="w-full h-screen bg-[#FFF8F4] flex">
+    <section class="w-full md:h-screen bg-[#FFF8F4] flex flex-col md:flex-row">
       <article class="flex-1">
         <div class="m-16">
           <div class="space-y-6 mb-8">
@@ -131,20 +141,25 @@
           </NuxtLink>
         </div>
       </article>
-      <div class="flex-1 relative overflow-y-hidden hidden md:block">
-        <figure class="relative z-20">
+      <div class="flex-1 md:overflow-y-hidden p-16 pb-0">
+        <figure
+          class="relative bg-[#E9763D] rounded-3xl size-full overflow-hidden"
+        >
           <NuxtImg
             src="img/fred-home-quick-wins.png"
             alt="Quick Wins"
-            class="scale-75"
+            class="pt-20 md:pt-0 md:scale-75 relative z-30"
           />
+          <div
+            class="size-full blur-[12rem] bg-[#FFA172] top-0 -translate-y-1/2 right-0 translate-x-1/2 absolute rounded-[50%] z-20"
+          ></div>
+          <div
+            class="size-full blur-[12rem]bg-[#FFA578] bottom-0 translate-y-1/2 left-0 -translate-x-1/2 absolute rounded-[50%] z-20"
+          ></div>
         </figure>
-        <div
-          class="absolute top-64 bg-[#E9763D] size-full z-10 rounded-3xl"
-        ></div>
       </div>
     </section>
-    <section class="space-y-16 py-16 md:py-48">
+    <section class="space-y-16 py-16 md:py-24">
       <div class="mx-16 md:mx-48 flex flex-col md:flex-row items-center gap-8">
         <h2 class="section-title">Vídeos do Fred</h2>
         <p class="article-text leading-[150%] max-w-xl">
@@ -343,7 +358,7 @@
         </a>
       </div>
     </section>
-    <section class="bg-[#F5F2EC] py-16 md:p-48 space-y-16">
+    <section class="bg-[#F5F2EC] py-16 md:p-24 space-y-16">
       <div class="mx-16 md:mx-48 flex flex-col md:flex-row items-center gap-8">
         <h2 class="section-title">Blog do Fred</h2>
         <p class="article-text leading-[150%] max-w-xl">
@@ -441,7 +456,7 @@
         </a>
       </div>
     </section>
-    <section class="p-16 md:p-48 flex flex-col md:flex-row items-center">
+    <section class="p-16 flex flex-col md:flex-row items-center">
       <div class="flex-1 md:p-16">
         <NuxtImg
           src="img/fred-home-contact.jpg"
@@ -475,8 +490,10 @@
       </div>
     </section>
     <ClientSection />
-    <section class="md:p-64">
-      <div class="flex items-center bg-[#2B2D3D] md:rounded-3xl">
+    <section class="md:px-64 md:py-16">
+      <div
+        class="flex flex-col md:flex-row items-center bg-[#2B2D3D] md:rounded-3xl"
+      >
         <article class="flex-1">
           <div class="space-y-16 p-16 md:p-32 md:pr-0">
             <h2 class="section-title !text-[#53CC6C]">In Company</h2>
@@ -502,14 +519,16 @@
             </div>
           </div>
         </article>
-        <figure class="relative flex-1 overflow-hidden hidden md:block">
+        <figure
+          class="flex-1 relative overflow-hidden h-80 md:h-full w-full rounded-3xl md:rounded-l-none p-16 md:p-0"
+        >
           <NuxtImg
             src="img/fred-home-in-company.jpg"
             alt="In Company"
-            class="relative z-10"
+            class="relative z-10 rounded-3xl md:rounded-l-none"
           />
           <div
-            class="absolute size-full top-0 left-0 bg-gradient-to-l from-[#2B2D3D]/0 to-[#2B2D3D] z-20"
+            class="absolute size-full top-0 left-0 bg-gradient-to-l from-[#2B2D3D]/0 to-[#2B2D3D] z-20 hidden md:block"
           ></div>
         </figure>
       </div>
