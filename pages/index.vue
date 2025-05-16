@@ -3,34 +3,9 @@
     <section
       class="hero-image w-full md:h-screen relative bg-cover overflow-y-hidden pb-8 md:pb-0"
     >
-      <div
-        class="absolute size-full top-0 left-0 bg-gradient-to-r from-[#1C3433E5]/90 to-[#1C3433E5]/40 z-20"
-      ></div>
+      <div class="absolute size-full top-0 left-0 bg-gradient-to-r from-[#1C3433E5]/90 to-[#1C3433E5]/40 z-20"></div>
       <Header class-name="bg-transparent" />
-      <div class="h-full flex md:items-center mt-8 md:mt-0">
-        <article
-          class="space-y-8 px-16 md:pr-0 md:pl-50 w-full md:w-[calc(100vw/2-12.5rem)] z-30 relative"
-        >
-          <div class="space-y-8">
-            <h1
-              class="font-semibold text-white text-5xl fh:text-7xl leading-16 fh:leading-18 text-center md:text-left"
-            >
-              Transforme sua equipe em uma
-              <span class="text-[#53CC6C]">potência de Resultados!</span>
-            </h1>
-            <p class="text-white text-base fh:text-xl leading-[150%]">
-              Com mais de 20 anos de experiência, Fred Junco oferece
-              treinamentos In Company que resolvem problemas específicos e
-              otimizam o desempenho da sua equipe.
-            </p>
-          </div>
-          <div class="flex items-center justify-center md:justify-start">
-            <NuxtLink to="/contact" class="link-button green"
-              >Entre em contato com o Fred</NuxtLink
-            >
-          </div>
-        </article>
-      </div>
+      <HomeBanner />
     </section>
     <section
       class="bg-[#2B2D3D] w-full md:h-screen flex flex-col-reverse md:flex-row"
@@ -515,54 +490,15 @@
       </div>
     </section>
     <ClientSection />
-    <section class="md:px-64 md:py-16 md:h-screen">
-      <div
-        class="flex flex-col md:flex-row h-full items-center bg-[#2B2D3D] md:rounded-3xl"
-      >
-        <article class="flex-1">
-          <div class="space-y-16 p-16 md:py-32 md:px-16 md:pr-0">
-            <h2 class="section-title !text-[#53CC6C]">In Company</h2>
-            <p class="font-normal text-base fh:text-xl text-white">
-              Com uma formação robusta e mais de 20 anos de experiência em
-              liderança e vendas, Fred Junco é reconhecido por sua abordagem
-              estratégica e personalizada. Sua metodologia exclusiva de
-              treinamento já ajudou milhares de profissionais a atingirem
-              resultados extraordinários. Conheça suas conquistas, prêmios e
-              metodologias que fazem a diferença no mercado corporativo.
-            </p>
-            <InCompanyList />
-            <div class="group relative flex mx-auto md:mx-0 w-fit z-40">
-              <span
-                class="absolute inset-0 border border-transparent group-hover:border-[#53CC6C] group-hover:animate-ping rounded-md hidden md:inline"
-              ></span>
-              <NuxtLink
-                to="/contact"
-                class="link-button relative !inline-flex border-none text-white bg-[#53CC6C]"
-              >
-                Quero me cadastrar no In Company
-              </NuxtLink>
-            </div>
-          </div>
-        </article>
-        <figure
-          class="flex-1 relative overflow-hidden h-80 md:h-full w-full rounded-3xl md:rounded-l-none p-16 md:p-0"
-        >
-          <NuxtImg
-            src="img/fred-home-in-company.jpg"
-            alt="In Company"
-            class="relative z-10 min-w-full min-h-full rounded-3xl md:rounded-l-none"
-          />
-          <div
-            class="absolute size-full top-0 left-0 bg-gradient-to-l from-[#2B2D3D]/0 to-[#2B2D3D] z-20 hidden md:block"
-          ></div>
-        </figure>
-      </div>
-    </section>
+    <HomeSpotlight />
   </main>
   <Footer />
 </template>
 
 <script setup>
+import HomeBanner from "~/components/HomeBanner.vue";
+import HomeSpotlight from "~/components/HomeSpotlight.vue";
+
 useHead({
   title: "Fred Junco - Conexões e Negócios",
 });
