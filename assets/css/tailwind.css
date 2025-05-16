@@ -5,19 +5,23 @@
 }
 
 .section-title {
-    @apply font-bold text-4xl text-[#1C3433] text-center md:text-left;
+    @apply font-bold text-4xl fh:text-6xl text-[#1C3433] text-center md:text-left;
 }
 
 .article-text {
-    @apply font-normal text-base text-[#6B6A66];
+    @apply font-normal text-base fh:text-xl text-[#6B6A66];
 }
 
 .link-button {
-    @apply font-semibold text-lg border rounded-md px-10 py-5 inline-block text-center md:text-left duration-200 cursor-pointer;
+    @apply font-semibold text-lg fh:text-2xl border rounded-md px-10 py-5 inline-block text-center md:text-left duration-200 cursor-pointer;
 }
 
 .link-button.green {
     @apply text-[#53CC6C] border-[#53CC6C] hover:bg-[#53CC6C] hover:text-white;
+}
+
+@theme { 
+    --breakpoint-fh: 160rem;
 }
 
 @layer components {

@@ -1,6 +1,11 @@
 <template>
   <ul
-    :class="cn('text-white text-base font-normal space-y-4 mb-16', className)"
+    :class="
+      cn(
+        'text-white text-base fh:text-xl font-normal space-y-4 mb-16',
+        className
+      )
+    "
   >
     <li>
       <NuxtImg src="icons/users-icon.svg" class="size-8 inline-block mr-2" />

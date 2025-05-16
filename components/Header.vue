@@ -12,7 +12,7 @@
     </NuxtLink>
     <nav class="mt-4 md:mt-0">
       <ul
-        class="flex flex-col md:flex-row items-center md:items-start gap-2 md:gap-8 text-white text-base font-semibold"
+        class="flex flex-col md:flex-row items-center md:items-start gap-2 md:gap-8 text-white text-base fh:text-xl font-semibold"
       >
         <NuxtLink to="/" class="py-2.5 px-5 hover:underline"
           >Página inicial</NuxtLink

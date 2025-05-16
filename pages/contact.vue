@@ -13,7 +13,7 @@
         </div>
         <article class="flex-1 md:px-16">
           <div class="space-y-8 mb-8">
-            <h3 class="font-bold text-base text-[#1C3433] uppercase">
+            <h3 class="font-bold text-base fh:text-xl text-[#1C3433] uppercase">
               PALESTRANTE | LIDERANÇA | NEGOCIAÇÃO | NEUROVENDAS | TREINAMENTO
               CORPORATIVO | GESTÃO COMERCIAL
             </h3>
@@ -35,7 +35,9 @@
       </div>
     </section>
     <section class="bg-[#F5F2EC] flex flex-col md:flex-row p-16 md:gap-0 gap-8">
-      <div class="flex-1 text-[#6B6A66] text-base font-normal space-y-8">
+      <div
+        class="flex-1 text-[#6B6A66] text-base fh:text-xl font-normal space-y-8"
+      >
         <div class="space-y-4">
           <h4 class="font-semibold text-[#1C3433] text-xl">E-mail</h4>
           <p>
