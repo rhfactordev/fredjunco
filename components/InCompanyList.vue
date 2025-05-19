@@ -20,7 +20,21 @@
         src="icons/mac-browser-icon.svg"
         class="size-8 inline-block mr-2"
       />
-      Possibilidade On-Line
+      Formato presencial ou online
+    </li>
+    <li>
+      <NuxtImg
+          src="icons/mac-browser-icon.svg"
+          class="size-8 inline-block mr-2"
+      />
+      Alta personalização dos conteúdos
+    </li>
+    <li>
+      <NuxtImg
+          src="icons/mac-browser-icon.svg"
+          class="size-8 inline-block mr-2"
+      />
+      Alta personalização dos conteúdos
     </li>
   </ul>
 </template>

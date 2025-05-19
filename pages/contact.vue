@@ -1,5 +1,10 @@
+<script setup>
+useHead({
+  title: "Contato | Fred Junco",
+});
+</script>
 <template>
-  <Header />
+  <nuxt-layout>
   <main>
     <section class="p-16 space-y-8 md:space-y-16">
       <h2 class="section-title">Quem é Fred Junco?</h2>
@@ -191,11 +196,7 @@
     </section>
     <ClientSection />
   </main>
-  <Footer />
+  </nuxt-layout>
 </template>
 
-<script setup>
-useHead({
-  title: "Contato | Fred Junco",
-});
-</script>
+

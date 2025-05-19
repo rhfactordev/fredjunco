@@ -1,5 +1,10 @@
+<script setup>
+useHead({
+  title: "In Company | Fred Junco",
+});
+</script>
 <template>
-  <Header />
+  <NuxtLayout>
   <main>
     <section class="p-16 space-y-8 md:space-y-16">
       <h2 class="section-title">In Company</h2>
@@ -282,11 +287,5 @@
       </div>
     </section>
   </main>
-  <Footer />
+  </NuxtLayout>
 </template>
-
-<script setup>
-useHead({
-  title: "In Company | Fred Junco",
-});
-</script>

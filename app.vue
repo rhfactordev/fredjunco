@@ -1,10 +1,7 @@
+<script setup lang="ts">
+
+</script>
 <template>
-  <NuxtExample
-    dir="routing/pages"
-    :nav="nav"
-    current-route
-  >
-    <NuxtLoadingIndicator />
-    <NuxtPage />
-  </NuxtExample>
+  <NuxtLoadingIndicator />
+  <NuxtPage />
 </template>
