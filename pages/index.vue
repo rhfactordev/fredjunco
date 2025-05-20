@@ -16,6 +16,8 @@ useHead({
     </template>
     <!-- Página Main -->
     <main>
+
+      <!-- Incompany -->
       <section class="bg-[#2B2D3D] w-full md:min-h-screen flex flex-col-reverse md:flex-row">
         <figure class="flex-1 md:overflow-hidden p-16 pt-0 md:p-0">
           <NuxtImg
@@ -50,33 +52,28 @@ useHead({
         </article>
       </section>
 
-
+      <!-- Mentoria -->
       <section class="w-full md:h-screen flex flex-col md:flex-row">
         <article class="flex-1">
           <div class="m-16">
             <div class="space-y-6 mb-8">
               <h2 class="section-title !text-[#669997]">Mentoria Xeque-Mate</h2>
-              <p class="article-text leading-[150%]">
-                A Mentoria Xeque-Mate é um programa completo focado em vendas e
-                experiência do cliente (CX). Desenvolvida por Fred Junco, a
-                mentoria ajuda profissionais a aprimorar estratégias, técnicas e
-                mindset para atingir resultados extraordinários no mercado.
+              <h3 class="section-subtitle !text-[#669997]">O passo a passo para transformar sua operação comercial em uma máquina de vendas previsível.</h3>
+              <p class="article-text leading-[150%]">A Mentoria Xeque-Mate é um programa prático e completo, desenhado para empreendedores, líderes e equipes que querem vender mais com estrutura, clareza e consistência.</p>
+              <p class="article-text leading-[150%]">Com uma metodologia validada, você será guiado por 11 movimentos estratégicos que organizam seu processo de vendas do planejamento à execução, passando por tecnologia, métricas, pessoas e resultados.
               </p>
             </div>
             <CheckedList
                 id="checkmate"
                 :items="[
-              'Para Empreendedores',
-              'Para Líderes Comerciais',
-              'Para Empresas que Faturam até 100k por Mês',
+              'Ideal para quem está estruturando ou ajustando o time comercial',
+              'Para negócios que precisam escalar com previsibilidade',
+              'Para empresas com faturamento até R$100 mil/mês que buscam crescimento sólido',
             ]"
             />
-            <NuxtLink
-                to="/contact"
-                class="link-button mt-16 text-[#669997] border-[#669997] hover:bg-[#669997] hover:text-white !block md:!inline-block"
-            >
+            <a href="https://www.mentoriaxequemate.com.br" to="/contact" class="link-button mt-16 text-[#669997] border-[#669997] hover:bg-[#669997] hover:text-white !block md:!inline-block">
               Quero conhecer a Mentoria
-            </NuxtLink>
+            </a>
           </div>
         </article>
         <figure class="flex-1 md:overflow-hidden p-16 pt-0 md:p-0">
@@ -87,6 +84,8 @@ useHead({
           />
         </figure>
       </section>
+
+      <!-- Quick Wins -->
       <section class="w-full md:h-screen bg-[#FFF8F4] flex flex-col md:flex-row">
         <article class="flex-1">
           <div class="m-16">
@@ -141,6 +140,9 @@ useHead({
           </figure>
         </div>
       </section>
+
+      <!-- Vídeos do Fred -->
+      <!--
       <section class="space-y-16 py-16 md:py-24">
         <div class="mx-16 md:mx-48 flex flex-col md:flex-row items-center gap-8">
           <h2 class="section-title">Vídeos do Fred</h2>
@@ -365,6 +367,10 @@ useHead({
           </a>
         </div>
       </section>
+      -->
+
+      <!-- Blog do Fred -->
+      <!--
       <section class="bg-[#F5F2EC] py-16 md:p-24 space-y-16">
         <div class="mx-16 md:mx-48 flex flex-col md:flex-row items-center gap-8">
           <h2 class="section-title">Blog do Fred</h2>
@@ -463,6 +469,9 @@ useHead({
           </a>
         </div>
       </section>
+      -->
+
+      <!-- Quem é Fred Junco? -->
       <section class="p-16 flex flex-col md:flex-row items-center">
         <div class="flex-1 md:p-16">
           <NuxtImg
@@ -485,7 +494,7 @@ useHead({
             Conheça suas conquistas, prêmios e metodologias que fazem a diferença
             no mercado corporativo.
           </p>
-          <a to="#" class="group link-button green !block md:!inline-block">
+          <nuxt-link to="/contact" class="group link-button green !block md:!inline-block">
             Quero falar com o Fred Junco
 
             <NuxtImg
@@ -493,10 +502,16 @@ useHead({
                 alt="->"
                 class="ml-4 size-5 inline-block group-hover:white-filter"
             />
-          </a>
+          </nuxt-link>
         </div>
       </section>
+
+      <!-- Depoimentos -->
+      <!--
       <ClientSection />
+      -->
+
+      <!-- Destaque Final - Incompany -->
       <HomeSpotlight />
     </main>
   </NuxtLayout>
