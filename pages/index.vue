@@ -28,8 +28,8 @@ useHead({
         </figure>
         <article class="flex-1">
           <div class="m-16">
-            <div class="space-y-6">
-              <h2 class="section-title !text-[#53CC6C]">In Company – Soluções sob medida para desenvolver pessoas e potencializar resultados
+            <div class="space-y-6 mb-8">
+              <h2 class="section-title !text-[#53CC6C]">In Company – Soluções sob medida para desenvolver pessoas e potencializar resultados!
               </h2>
               <p class="article-text !text-white leading-[150%]">
                 O maior desafio do RH hoje não é apenas contratar bem, mas manter equipes produtivas, engajadas e alinhadas aos objetivos da empresa.
@@ -38,16 +38,16 @@ useHead({
                 Pensando nisso, desenvolvemos soluções In Company personalizadas, que diagnosticam a realidade da sua empresa e entregam treinamentos e ações práticas para melhorar a performance, o clima e a retenção de talentos.
               </p>
               <p class="article-text !text-white leading-[150%]">
-                Mais do que um conteúdo genérico, oferecemos experiências formativas adaptadas à cultura, aos desafios e às metas da sua empresa — com foco em desenvolver times e líderes de forma estratégica e mensurável.
+                Mais do que um conteúdo genérico, oferecemos experiências formativas adaptadas à cultura, aos desafios e às metas da sua empresa com foco em desenvolver times e líderes de forma estratégica e mensurável.
               </p>
             </div>
             <InCompanyList />
-            <div class="group relative flex w-full md:w-fit cursor-pointer">
-            <span class="absolute inset-0 border border-transparent group-hover:border-[#53CC6C] group-hover:animate-ping rounded-md hidden md:inline"></span>
-              <NuxtLink to="/contact" class="mx-auto md:mx-0 link-button !inline-flex text-white border-none bg-[#53CC6C]">
-                Quero me cadastrar no In Company
-              </NuxtLink>
-            </div>
+            <form class="w-full md:w-fit cursor-pointer">
+              <input type="email" placeholder="Digite seu e-mail" class="mb-4 w-full md:w-96 px-6 py-4 rounded-3xl bg-white text-[#1C3433] placeholder:text-[#1C3433]/50 focus:outline-none focus:ring-2 focus:ring-[#53CC6C] transition duration-200" />
+              <nuxt-link to="/contact" class="w-full sm:w-auto text-center mx-auto md:mx-0 link-button !inline-flex text-white border-none bg-[#53CC6C]">
+                Solicite uma proposta
+              </nuxt-link>
+            </form>
           </div>
         </article>
       </section>
@@ -59,7 +59,7 @@ useHead({
             <div class="space-y-6 mb-8">
               <h2 class="section-title !text-[#669997]">Mentoria Xeque-Mate</h2>
               <h3 class="section-subtitle !text-[#669997]">O passo a passo para transformar sua operação comercial em uma máquina de vendas previsível.</h3>
-              <p class="article-text leading-[150%]">A Mentoria Xeque-Mate é um programa prático e completo, desenhado para empreendedores, líderes e equipes que querem vender mais com estrutura, clareza e consistência.</p>
+              <p class="article-text leading-[150%]">A Mentoria Xeque-Mate é um programa prático e completo, desenhado para empresários, empreendedores e líderes que querem vender mais com estrutura, clareza e consistência.</p>
               <p class="article-text leading-[150%]">Com uma metodologia validada, você será guiado por 11 movimentos estratégicos que organizam seu processo de vendas do planejamento à execução, passando por tecnologia, métricas, pessoas e resultados.
               </p>
             </div>
@@ -71,7 +71,7 @@ useHead({
               'Para empresas com faturamento até R$100 mil/mês que buscam crescimento sólido',
             ]"
             />
-            <a href="https://www.mentoriaxequemate.com.br" to="/contact" class="link-button mt-16 text-[#669997] border-[#669997] hover:bg-[#669997] hover:text-white !block md:!inline-block">
+            <a href="https://www.mentoriaxequemate.com.br" target="_blank" class="link-button mt-16 text-[#669997] border-[#669997] hover:bg-[#669997] hover:text-white !block md:!inline-block">
               Quero conhecer a Mentoria
             </a>
           </div>
