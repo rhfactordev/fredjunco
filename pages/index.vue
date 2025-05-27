@@ -483,20 +483,13 @@ useHead({
         <div class="flex-1 py-8 md:p-16 space-y-8">
           <h2 class="section-title">Quem é Fred Junco?</h2>
           <h3 class="font-bold text-base fh:text-xl text-[#1C3433] uppercase">
-            PALESTRANTE | LIDERANÇA | NEGOCIAÇÃO | NEUROVENDAS | TREINAMENTO
-            CORPORATIVO | GESTÃO COMERCIAL
+            Palestrante | Mentor | Treinamento e Educação Corporativa | Desenvolvimento de Lideranças | DHO | T&D | Negociação e Vendas | Gestão Comercial | Neurovendas | + 5000 profissionais treinados
           </h3>
           <p class="article-text">
-            Com uma formação robusta e mais de 20 anos de experiência em liderança
-            e vendas, Fred Junco é reconhecido por sua abordagem estratégica e
-            personalizada. Sua metodologia exclusiva de treinamento já ajudou
-            milhares de profissionais a atingirem resultados extraordinários.
-            Conheça suas conquistas, prêmios e metodologias que fazem a diferença
-            no mercado corporativo.
+            Com mais de 10 anos atuando como treinador corporativo,  palestrante e mentor, e mais de 20 anos de experiência em liderança e vendas, Fred Junco é reconhecido por sua abordagem estratégica e personalizada. Sua metodologia de treinamento já ajudou diversos profissionais a atingirem resultados excepcionais. Conheça suas conquistas, prêmios e metodologias que fazem a diferença no mercado corporativo.
           </p>
           <nuxt-link to="/contact" class="group link-button green !block md:!inline-block">
             Quero falar com o Fred Junco
-
             <NuxtImg
                 src="icons/arrow-up-right-icon.svg"
                 alt="->"
@@ -512,7 +505,7 @@ useHead({
       -->
 
       <!-- Destaque Final - Incompany -->
-      <HomeSpotlight />
+      <!-- <HomeSpotlight /> -->
     </main>
   </NuxtLayout>
 </template>
